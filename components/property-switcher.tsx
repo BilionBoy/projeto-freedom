@@ -24,14 +24,6 @@ const properties: Property[] = [
     status: "lancamento",
     href: "/parque-dos-passaros", // vai ser criado ainda
   },
-  { // tentativa numero 1
-    id: "Id fictício", // vai ser criado ainda
-    name: "Nome fictício", // vai ser criado ainda
-    location: "Endereço fictício", // vai ser criado ainda
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fachada-Ls3u18q4mqoOrJERGG1tTNGzMKUXC6.webp",
-    status: "lancamento",
-    href: "/", // vai ser criado ainda
-  },
   {
     id: "bella-verona",
     name: "Bella Verona Residencial",
