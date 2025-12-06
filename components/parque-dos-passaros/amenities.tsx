@@ -108,7 +108,7 @@ export function ParquePassarosAmenities() {
           >
             <img
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista_parque_p34_907-e0SPjcgWZY3BfXAPLI2JhFD7qqbHSO.jpeg"
-              alt="Implantação Vista Parque"
+              alt="Implantação Parque dos Passaros"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
@@ -160,7 +160,7 @@ export function ParquePassarosAmenities() {
             >
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista_parque_p20_970-kicIG62uq6cwtTbwuJe9YJRfddcrNS.jpeg"
-                alt="Playground Vista Parque"
+                alt="Playground Parque dos Passaros"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
@@ -177,7 +177,7 @@ export function ParquePassarosAmenities() {
             >
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista_parque_p8_1020-tCK7zdj0TDfzIxNUdinaL9DehZl9Uw.jpeg"
-                alt="Pet Place Vista Parque"
+                alt="Pet Place Parque dos Passaros"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />

@@ -48,7 +48,7 @@ export function ParquePassarosFeatures() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Diferenciais do <span className="text-[#c01616]">Vista Parque</span>
+            Diferenciais do <span className="text-[#c01616]">Parque dos Pássaros</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Cada detalhe foi pensado para proporcionar conforto, praticidade e qualidade de vida para você e sua família

@@ -9,12 +9,12 @@ export function ParquePassarosFloorPlans() {
   const plans = [
     {
       title: "2 Dormitórios",
-      area: "51,61m²",
+      area: "51,42m²",
       features: ["2 Dormitórios", "Sala integrada", "Cozinha", "Banheiro", "Varanda Gourmet", "1 Vaga"],
     },
     {
       title: "2 Dormitórios com Suíte",
-      area: "Até 80,16m²",
+      area: "Até 55,15m²",
       features: [
         "1 Suíte + 1 Dormitório",
         "Sala ampla",
