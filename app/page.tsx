@@ -13,6 +13,7 @@ import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
 import { EnhancedHeader } from "@/components/enhanced-header"
 
+
 export default function Home() {
   return (
     <main className="min-h-screen">

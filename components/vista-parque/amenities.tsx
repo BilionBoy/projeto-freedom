@@ -1,18 +1,18 @@
 "use client"
 
 import { Card } from "@/components/ui/card"
-import { Waves, Users, Dumbbell, Baby, Dog, TreePine, PartyPopper, Gamepad2 } from "lucide-react"
+import { Waves, Eye, Dumbbell, Baby, Dog, TreePine, PartyPopper, Gamepad2, Lollipop, Armchair } from "lucide-react"
 import { motion } from "framer-motion"
 
 export function VistaParqueAmenities() {
   const rooftopAmenities = [
     {
-      icon: Waves,
+      icon: Eye,
       title: "Vista Panorâmica",
       description: "Lazer no rooftop com vista privilegiada da região",
     },
     {
-      icon: Users,
+      icon: PartyPopper,
       title: "Salão de Festas",
       description: "Espaço gourmet completo para suas celebrações",
     },
@@ -35,7 +35,7 @@ export function VistaParqueAmenities() {
       description: "Piscina adulto e infantil para toda família",
     },
     {
-      icon: TreePine,
+      icon: Lollipop,
       title: "Playground",
       description: "Brinquedos modernos e área verde",
     },
@@ -46,8 +46,8 @@ export function VistaParqueAmenities() {
     },
     {
       icon: Dog,
-      title: "Pet Place",
-      description: "Área exclusiva com agility para seu pet",
+      title: "Espaço Pet",
+      description: "Área exclusiva para seu pet",
     },
   ]
 
@@ -72,7 +72,7 @@ export function VistaParqueAmenities() {
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-12 h-12 bg-[#c01616] rounded-xl flex items-center justify-center">
-              <PartyPopper className="h-6 w-6 text-white" />
+              <Armchair className="h-6 w-6 text-white" />
             </div>
             <div>
               <h3 className="text-2xl font-bold">Lazer no Rooftop</h3>
@@ -165,7 +165,7 @@ export function VistaParqueAmenities() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
               <div className="absolute bottom-4 left-4 text-white">
-                <p className="text-xl font-bold">Playground Moderno</p>
+                <p className="text-xl font-bold">Playground</p>
               </div>
             </motion.div>
 
@@ -182,7 +182,7 @@ export function VistaParqueAmenities() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
               <div className="absolute bottom-4 left-4 text-white">
-                <p className="text-xl font-bold">Pet Place com Agility</p>
+                <p className="text-xl font-bold">Espaço Pet</p>
               </div>
             </motion.div>
           </div>

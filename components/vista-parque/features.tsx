@@ -1,7 +1,7 @@
 "use client"
 
 import { Card } from "@/components/ui/card"
-import { Home, Maximize2, Wind, Sun, Shield, Zap } from "lucide-react"
+import { Home, Building, Wind, Leaf, Shield, Zap } from "lucide-react"
 import { motion } from "framer-motion"
 
 export function VistaParqueFeatures() {
@@ -12,7 +12,7 @@ export function VistaParqueFeatures() {
       description: "Com ou sem suíte, você escolhe a planta ideal para sua família",
     },
     {
-      icon: Maximize2,
+      icon: Building,
       title: "Varanda Gourmet",
       description: "Espaço perfeito para receber amigos e família com conforto",
     },
@@ -22,7 +22,7 @@ export function VistaParqueFeatures() {
       description: "Projeto arquitetônico que privilegia iluminação e ventilação",
     },
     {
-      icon: Sun,
+      icon: Leaf,
       title: "3 Opções Garden",
       description: "Apartamentos térreos com jardim privativo exclusivo",
     },
