@@ -7,23 +7,23 @@ import { Button } from "@/components/ui/button"
 
 const images = [
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista_parque_p42_821%20%281%29-Y9wUe7jz4tqSkVIzHTV5R7XhKojWeA.jpeg",
+    src: "/dormitorio-bella-verona.png",
     alt: "Dormitório",
     category: "Ambientes",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista_parque_p42_819%20%281%29-JUNDV3lSGG5m1qbDu7z6ZkU4jsaJsB.jpeg",
+    src: "/cozinha-bella-verona.png",
     alt: "Cozinha",
     category: "Ambientes",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista_parque_p48_769%20%281%29-9eIeiZWJ4tBqI2nWkqi4HDhECNp5TK.jpeg",
+    src: "/varanda-bella-verona.png",
     alt: "Varanda Gourmet",
     category: "Lazer",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista_parque_p40_886%20%281%29-h5zBL96MYYrXEHp2dVMde6QOTwD6oD.jpeg",
-    alt: "Área Externa",
+    src: "/sala-estar-bella-verona.png",
+    alt: "Sala de Estar",
     category: "Lazer",
   },
 ]

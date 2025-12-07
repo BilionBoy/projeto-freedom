@@ -1,6 +1,6 @@
 "use client"
 import { Card } from "@/components/ui/card"
-import { Award, Users, Shield, Clock } from "lucide-react"
+import { Award, Users, File, Clock } from "lucide-react"
 import { motion } from "framer-motion"
 
 export function FreedomAtende() {
@@ -11,7 +11,7 @@ export function FreedomAtende() {
       description: "Equipe especializada para entender suas necessidades e encontrar o imóvel ideal para você.",
     },
     {
-      icon: Shield,
+      icon: File,
       title: "Assessoria Completa",
       description: "Acompanhamento em todas as etapas: documentação, financiamento e entrega das chaves.",
     },

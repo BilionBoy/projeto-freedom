@@ -2,14 +2,14 @@ import { Check } from "lucide-react"
 
 export function Features() {
   const features = [
-    "Implantação Estratégica com Lazer Exclusivo",
-    "Plantas Modernas e Versáteis",
-    "Localização Privilegiada em Itu",
-    "Acabamento de Alto Padrão",
     "Área de Lazer Completa",
+    "Quiosques com Churrasqueira",
+    "Salão de Festas",
+    "Academia Interna e Externa",
+    "Piscina Adulta e Infantil",
     "Segurança 24 Horas",
-    "Vaga de Garagem Coberta",
-    "Infraestrutura Completa",
+    "Espaço Pet",
+    "Quadra Recreativa",
   ]
 
   return (
@@ -44,7 +44,7 @@ export function Features() {
             <div className="relative">
               <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista_parque_p40_886-6cDx7HV5TE84y7CkCoQtEX85eoLupL.jpeg"
+                  src="/bella-verona-diferencial.png"
                   alt="Área de Lazer"
                   className="w-full h-full object-cover"
                 />

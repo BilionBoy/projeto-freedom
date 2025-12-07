@@ -1,12 +1,15 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button"
-import { ArrowRight, MapPin, Home, Waves, Calendar } from "lucide-react"
-import { motion } from "framer-motion"
+import { Button } from "@/components/ui/button";
+import { ArrowRight, MapPin, Home, Waves, Calendar } from "lucide-react";
+import { motion } from "framer-motion";
 
 export function MaximHero() {
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section
+      id="hero"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+    >
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80 z-10" />
         <img
@@ -31,7 +34,9 @@ export function MaximHero() {
           >
             <div className="inline-flex items-center gap-2 bg-green-600/20 backdrop-blur-md px-6 py-3 rounded-full mb-8 border border-green-600/30">
               <Calendar className="h-5 w-5 text-green-400" />
-              <span className="text-sm font-medium tracking-wide">Pronto para Morar - Entrega Dezembro/2025</span>
+              <span className="text-sm font-medium tracking-wide">
+                Pronto para Morar - Entrega Dezembro/2025
+              </span>
             </div>
 
             <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-balance leading-[1.05] tracking-tight">
@@ -44,8 +49,10 @@ export function MaximHero() {
             </p>
 
             <p className="text-base md:text-lg text-white/90 mb-12 max-w-3xl mx-auto text-pretty leading-relaxed">
-              O maior clube de lazer de Itu está quase pronto! Com 2 dormitórios, opção de suíte, e mais de 40 itens de
-              lazer, o Maxim Home Club é o lugar perfeito para sua família viver com qualidade e conforto.
+              O maior clube de lazer de Itu está quase pronto! Com 2
+              dormitórios, opção de suíte, e mais de 40 itens de lazer, o Maxim
+              Home Club é o lugar perfeito para sua família viver com qualidade
+              e conforto.
             </p>
 
             <div className="flex flex-wrap justify-center gap-6 mb-12">
@@ -115,10 +122,13 @@ export function MaximHero() {
           >
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full mb-4">
               <MapPin className="h-5 w-5 text-[#c01616]" />
-              <span className="text-sm">Itu/SP - Bairro Nossa Senhora Aparecida</span>
+              <span className="text-sm text-[#FFFFFF]">
+                Itu/SP - Bairro Nossa Senhora Aparecida
+              </span>
             </div>
             <p className="text-xl md:text-2xl font-light text-white/80 mb-2">
-              Realize seu sonho com a <span className="text-[#c01616] font-bold">FREEDOM!</span>
+              Realize seu sonho com a{" "}
+              <span className="text-[#c01616] font-bold">FREEDOM!</span>
             </p>
           </motion.div>
         </div>
@@ -134,5 +144,5 @@ export function MaximHero() {
         </motion.div>
       </div>
     </section>
-  )
+  );
 }

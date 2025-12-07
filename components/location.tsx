@@ -1,10 +1,10 @@
-import { MapPin, Navigation, Clock, Coffee } from "lucide-react"
+import { MapPin, GraduationCap, Pill, Store } from "lucide-react"
 
 export function Location() {
   const nearbyPlaces = [
-    { icon: Coffee, name: "Supermercados", distance: "500m" },
-    { icon: Navigation, name: "Escolas", distance: "1km" },
-    { icon: Clock, name: "Farmácias", distance: "300m" },
+    { icon: Store, name: "Supermercados", distance: "400m" },
+    { icon: GraduationCap, name: "Escolas", distance: "1,1km" },
+    { icon: Pill, name: "Farmácias", distance: "3,3km" },
     { icon: MapPin, name: "Centro de Itu", distance: "3km" },
   ]
 
@@ -29,9 +29,10 @@ export function Location() {
                   <div>
                     <h3 className="font-serif text-xl font-bold mb-2">Endereço</h3>
                     <p className="text-muted-foreground">
-                      Rua Exemplo, 123 - Centro
+                      Rua Ana Lúcia Lopes de Moraes, s/n
+Pq. Nossa Senhora da Candelária (Chácara 23)
                       <br />
-                      Itu - SP, CEP 13300-000
+                      Itu - SP, CEP 13310-240
                     </p>
                   </div>
                 </div>
@@ -55,7 +56,7 @@ export function Location() {
 
             <div className="aspect-square rounded-xl overflow-hidden shadow-2xl">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14676.298621252937!2d-47.29944!3d-23.26444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf5c8f2d8f8f8f%3A0x8f8f8f8f8f8f8f8f!2sItu%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14661.221891530766!2d-47.33365014458006!3d-23.26834759999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf51a00e3bf4f7%3A0xc57925fa4610619f!2sBella%20Verona!5e0!3m2!1spt-BR!2sbr!4v1765037063473!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

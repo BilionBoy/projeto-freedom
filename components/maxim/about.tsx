@@ -29,7 +29,7 @@ export function MaximAbout() {
   ]
 
   return (
-    <section id="sobre" className="py-24 bg-white">
+    <section id="about" className="py-24 bg-white">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

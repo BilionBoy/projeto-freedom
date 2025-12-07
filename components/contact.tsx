@@ -107,7 +107,7 @@ export function Contact() {
                         href="tel:+551140028922"
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
-                        (11) 4002-8922
+                        (11) 99681-0021
                       </a>
                     </div>
                   </div>
@@ -119,12 +119,12 @@ export function Contact() {
                     <div>
                       <p className="font-medium mb-1">WhatsApp</p>
                       <a
-                        href="https://wa.me/5511999999999"
+                        href="https://wa.me/5511996810021"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
-                        (11) 99999-9999
+                        (11) 99681-0021
                       </a>
                     </div>
                   </div>
@@ -136,10 +136,10 @@ export function Contact() {
                     <div>
                       <p className="font-medium mb-1">E-mail</p>
                       <a
-                        href="mailto:contato@freedomimobiliaria.com.br"
+                        href="mailto:julianelosilla@gmail.com"
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
-                        contato@freedomimobiliaria.com.br
+                        julianelosilla@gmail.com
                       </a>
                     </div>
                   </div>
