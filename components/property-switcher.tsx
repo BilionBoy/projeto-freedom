@@ -17,12 +17,12 @@ interface Property {
 
 const properties: Property[] = [
   { // tentativa numero 1
-    id: "Id fictício", // vai ser criado ainda
-    name: "Nome fictício", // vai ser criado ainda
+    id: "parque-dos-passaros", // vai ser criado ainda
+    name: "Parque dos Pássaros Resiencial", // vai ser criado ainda
     location: "Endereço fictício", // vai ser criado ainda
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fachada-Ls3u18q4mqoOrJERGG1tTNGzMKUXC6.webp",
     status: "lancamento",
-    href: "/", // vai ser criado ainda
+    href: "/parque-dos-passaros", // vai ser criado ainda
   },
   {
     id: "bella-verona",
