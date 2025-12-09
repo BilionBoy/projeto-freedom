@@ -30,7 +30,7 @@ export function VistaParqueLocation() {
             Central Parque - <span className="text-[#c01616]">Salto/SP</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Endereço: Av. Plizio Nunciatto Di Lelli | Central Parque | Salto/SP
+            Endereço: Av. Pilzio Nunciatto Di Lelli, Central Parque, Salto - SP
           </p>
         </motion.div>
 
