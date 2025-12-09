@@ -7,22 +7,22 @@ import { Button } from "@/components/ui/button"
 
 const images = [
   {
-    src: "/dormitorio-bella-verona.png",
+    src: "/bella-verona-dormitorio.jpg",
     alt: "Dormitório",
     category: "Ambientes",
   },
   {
-    src: "/cozinha-bella-verona.png",
+    src: "/bella-verona-cozinha.jpg",
     alt: "Cozinha",
     category: "Ambientes",
   },
   {
-    src: "/varanda-bella-verona.png",
+    src: "/bella-verona-varanda.jpg",
     alt: "Varanda Gourmet",
     category: "Lazer",
   },
   {
-    src: "/sala-estar-bella-verona.png",
+    src: "/bella-verona-sala.jpg",
     alt: "Sala de Estar",
     category: "Lazer",
   },
