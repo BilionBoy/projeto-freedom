@@ -11,7 +11,7 @@ export function ParquePassarosHero() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80 z-10" />
         <img
           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista_parque_p7_1015-85bRRmcZj3jJYIlqhUUyUNDPwZABUH.jpeg"
-          alt="Vista Parque Residencial - Vista Aérea"
+          alt="Parque dos Passaros Residencial - Vista Aérea"
           className="w-full h-full object-cover scale-105"
         />
       </div>
@@ -39,7 +39,7 @@ export function ParquePassarosHero() {
 
             {/* Main heading */}
             <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-balance leading-[1.05] tracking-tight">
-              Vista Parque <br />
+              Parque dos Pássaros <br />
               <span className="text-[#c01616]">Residencial</span>
             </h1>
 

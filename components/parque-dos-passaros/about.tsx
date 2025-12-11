@@ -32,6 +32,7 @@ export function ParquePassarosAbout() {
     <section id="about" className="py-24 bg-white">
       <div className="container mx-auto px-4">
         <motion.div
+        
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -42,7 +43,7 @@ export function ParquePassarosAbout() {
             <span className="text-sm font-medium text-[#c01616]">BREVE LANÇAMENTO</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-balance">
-            O Vista Parque da <span className="text-[#c01616]">Construtora Rio Branco</span>
+            O Parque dos Pássaros da <span className="text-[#c01616]">Construtora Rio Branco</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
             Une conforto e uma localização privilegiada. São duas torres com 2 elevadores cada e apartamentos com
@@ -82,7 +83,7 @@ export function ParquePassarosAbout() {
           <div className="relative h-96 rounded-2xl overflow-hidden group">
             <img
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista_parque_p52_787-4p1LKmosZ2siqqzs0fIYiXR84nplQS.jpeg"
-              alt="Apartamento Decorado Vista Parque"
+              alt="Apartamento Decorado Parque dos Pássaros"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
@@ -95,7 +96,7 @@ export function ParquePassarosAbout() {
           <div className="relative h-96 rounded-2xl overflow-hidden group">
             <img
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista_parque_p27_918-rPTLTEAcFDhYC1nimsAMPNL1IxDyvl.jpeg"
-              alt="Salão de Festas Vista Parque"
+              alt="Salão de Festas Parque dos Pássaros"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />

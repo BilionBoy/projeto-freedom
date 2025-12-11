@@ -66,7 +66,7 @@ export function ParquePassarosGallery() {
             Galeria de <span className="text-[#c01616]">Imagens</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Conheça cada detalhe do Vista Parque Residencial através das nossas imagens
+            Conheça cada detalhe do Parque dos Pássaros Residencial através das nossas imagens
           </p>
         </motion.div>
 

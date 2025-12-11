@@ -98,7 +98,7 @@ export function ParquePassarosFloorPlans() {
         >
           <img
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp_Image_2025-10-29_at_14.13.00-H4QaC6yVj2Zd8sqkITXz2lm5AFZLQT.jpeg"
-            alt="Material de Divulgação Vista Parque"
+            alt="Material de Divulgação do Parque dos Pássaros"
             className="w-full h-full object-contain bg-muted"
           />
         </motion.div>

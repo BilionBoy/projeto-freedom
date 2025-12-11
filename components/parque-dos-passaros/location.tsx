@@ -62,7 +62,7 @@ export function ParquePassarosLocation() {
           >
             <img
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista_parque_p7_1015-85bRRmcZj3jJYIlqhUUyUNDPwZABUH.jpeg"
-              alt="Localização Vista Parque"
+              alt="Localização Parque dos Passaros"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
