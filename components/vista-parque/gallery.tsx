@@ -7,34 +7,34 @@ import { Button } from "@/components/ui/button"
 
 const images = [
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista_parque_p16_954-gabLPM1wYrJK47EfbwkhjXvNawegDa.jpeg",
-    title: "Fachada Principal",
-    category: "Fachada",
+    src: "vista-parque-piscina.jpeg",
+    title: "Piscina",
+    category: "Lazer",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista_parque_p7_1015-85bRRmcZj3jJYIlqhUUyUNDPwZABUH.jpeg",
-    title: "Vista Aérea",
-    category: "Externa",
+    src: "vista-parque-quadra.jpeg",
+    title: "Quadra Recreativa",
+    category: "Esporte",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista_parque_p52_787-4p1LKmosZ2siqqzs0fIYiXR84nplQS.jpeg",
-    title: "Apartamento Decorado",
-    category: "Interna",
+    src: "/vista-parque-cinema.jpeg",
+    title: "Cinema",
+    category: "Entretenimento",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista_parque_p27_918-rPTLTEAcFDhYC1nimsAMPNL1IxDyvl.jpeg",
+    src: "vista-parque-salao.jpeg",
     title: "Salão de Festas",
-    category: "Lazer",
+    category: "Interno",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista_parque_p20_970-kicIG62uq6cwtTbwuJe9YJRfddcrNS.jpeg",
-    title: "Playground",
-    category: "Lazer",
+    src: "vista-parque-jogos.jpeg",
+    title: "Salão de Jogos",
+    category: "Entretenimento",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista_parque_p8_1020-tCK7zdj0TDfzIxNUdinaL9DehZl9Uw.jpeg",
-    title: "Pet Place",
-    category: "Lazer",
+    src: "vista-parque-infantil.jpeg",
+    title: "Brinquedoteca",
+    category: "Infantil",
   },
 ]
 

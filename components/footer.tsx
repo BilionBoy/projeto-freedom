@@ -53,8 +53,8 @@ export function Footer() {
             <div>
               <h4 className="font-semibold text-lg mb-4">Contato</h4>
               <ul className="space-y-2 text-sm text-secondary-foreground/80">
-                <li>(11) 4002-8922</li>
-                <li>contato@freedomimobiliaria.com.br</li>
+                <li>(11) 99681-0021</li>
+                <li>julianelosilla@gmail.com</li>
                 <li>Itu - SP</li>
               </ul>
             </div>

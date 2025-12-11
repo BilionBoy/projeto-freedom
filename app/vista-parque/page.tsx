@@ -10,6 +10,7 @@ import { FinancingSimulator } from "@/components/financing-simulator"
 import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
 import { EnhancedHeader } from "@/components/enhanced-header"
+import { VirtuallTours } from "@/components/vista-parque/virtual-tours"
 
 export default function VistaParquePage() {
   return (
@@ -21,6 +22,7 @@ export default function VistaParquePage() {
       <VistaParqueAmenities />
       <VistaParqueGallery />
       <VistaParqueFloorPlans />
+      <VirtuallTours />
       <VistaParqueLocation />
       <FreedomAtende />
       <FinancingSimulator />

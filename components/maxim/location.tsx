@@ -14,7 +14,7 @@ export function MaximLocation() {
   ]
 
   return (
-    <section id="localizacao" className="py-24 bg-muted">
+    <section id="location" className="py-24 bg-muted">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -64,7 +64,7 @@ export function MaximLocation() {
             className="rounded-xl overflow-hidden h-[400px] lg:h-full"
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.8!2d-47.3!3d-23.26!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDE1JzM2LjAiUyA0N8KwMTgnMDAuMCJX!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.5738305509567!2d-47.31809862600096!3d-23.25859027900907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf518c3b20b975%3A0x913bf4c4f4ffe72!2sMaxim%20Home%20Club%20Itu!5e0!3m2!1spt-BR!2sbr!4v1765294987101!5m2!1spt-BR!2sbr"
               width="100%"
               height="100%"
               style={{ border: 0 }}

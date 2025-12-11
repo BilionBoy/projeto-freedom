@@ -10,44 +10,24 @@ const tours = [
     name: "Vista Parque",
     tours: [
       {
+        title: "Tour Virtual - Área Externa",
+        url: "https://bit.ly/vista-parque-rb-tour",
+        description: "Faça um passeio imersivo pela área externa e descubra todos os espaços de lazer.",
+        thumbnail:
+          "/vista-parque-playground.jpeg",
+      },
+      {
         title: "Tour Virtual - Apartamento",
         url: "https://tour.meupasseiovirtual.com/view/k5tJicqXosL",
         description: "Conheça cada detalhe do apartamento",
         thumbnail:
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista_parque_p42_821%20%281%29-Y9wUe7jz4tqSkVIzHTV5R7XhKojWeA.jpeg",
-      },
-      {
-        title: "Tour Virtual - Salão de Festa",
-        url: "https://tour.meupasseiovirtual.com/view/5YFw2PDEOT1",
-        description: "Explore o salão de festa",
-        thumbnail:
-          "vista-parque-salao.jpeg",
+          "/vista-parque-ape.jpeg",
       },
     ],
-  },
-  {
-    id: "estacao-real",
-    name: "Estação Real",
-    tours: [
-      {
-        title: "Tour Virtual - Apartamento 80m²",
-        url: "https://tour.espheravirtual.com.br/RioBranco/EstacaoReal/Apartamento/?utm_source=Esta%C3%A7%C3%A3o+Real&utm_medium=Book_80m%C2%B2&utm_campaign=Signature",
-        description: "Apartamento decorado 80m²",
-        thumbnail:
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista_parque_p42_819%20%281%29-JUNDV3lSGG5m1qbDu7z6ZkU4jsaJsB.jpeg",
-      },
-      {
-        title: "Tour Virtual - Duplex",
-        url: "https://tour.espheravirtual.com.br/RioBranco/EstacaoReal/Duplex/?utm_source=Esta%C3%A7%C3%A3o+Real&utm_medium=RB+Signature&utm_campaign=Book+impresso",
-        description: "Conheça o modelo duplex",
-        thumbnail:
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/vista_parque_p40_886%20%281%29-h5zBL96MYYrXEHp2dVMde6QOTwD6oD.jpeg",
-      },
-    ],
-  },
+  }
 ]
 
-export function VirtualTours() {
+export function VirtuallTours() {
   const [activeTab, setActiveTab] = useState("vista-parque")
   const [selectedTour, setSelectedTour] = useState<string | null>(null)
 
@@ -72,7 +52,7 @@ export function VirtualTours() {
           </div>
 
           <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-            <TabsList className="grid w-full max-w-md mx-auto grid-cols-2 mb-12 bg-white/5 border border-white/10">
+            <TabsList className="flex w-full max-w-md mx-auto justify-center gap-2 mb-12 bg-white/5 border border-white/10">
               {tours.map((project) => (
                 <TabsTrigger
                   key={project.id}

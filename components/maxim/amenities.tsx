@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/card"
 import {
   Waves,
   Dumbbell,
-  Users,
+  PartyPopper,
   TreePine,
   Bike,
   Baby,
@@ -24,7 +24,7 @@ export function MaximAmenities() {
   const amenities = [
     { icon: Waves, title: "Piscinas", description: "Adulto, infantil, aquecida e com toboágua" },
     { icon: Dumbbell, title: "Fitness Completo", description: "Academia, crossfit, espaço lutas" },
-    { icon: Users, title: "Salão de Festas", description: "Com apoio e pergolado" },
+    { icon: PartyPopper, title: "Salão de Festas", description: "Com apoio e pergolado" },
     { icon: TreePine, title: "Áreas Verdes", description: "Mini horta, praça central, espaço zen" },
     { icon: Bike, title: "Pista Cooper/Bike", description: "Circuito completo para exercícios" },
     { icon: Baby, title: "Espaço Kids", description: "Playground, brinquedoteca, cinema kids" },

@@ -10,8 +10,8 @@ export function MaximGallery() {
 
   const images = [
     {
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/04-danpris-terraco-itu-externas-piscina-infantil-hr00-easy-resize-com-5568a87f611ae35dfd0a51fe0e5de8ff6ad089d91754576575462-V78mSCBauw62ZIFjwU6IQATYlsTNdq.jpg",
-      title: "Piscina Infantil com Toboágua",
+      src: "maxim-estudos.jpg",
+      title: "Workspace",
     },
     {
       src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/25-danpris-terraco-itu-brinquedoteca-hr00-easy-resize-com-e56e13008a891c7ab0dd56420ba4513c3c5b3f5d1754576575284-BHwYqouzvv70rCQHfBwbDoh0apdTdl.jpg",
@@ -22,16 +22,16 @@ export function MaximGallery() {
       title: "Salão de Jogos",
     },
     {
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/16-danpris-terraco-itu-externas-churrasqueira-hr00-easy-resize-com-e90b0799966fb37ee4f26b1dcc4b4d81bafaa8341754576572184-G5Bwkm3ZwvAPAcG5DhjG1nV93lktHN.jpg",
-      title: "Área Gourmet com Churrasqueira",
+      src: "maxim-meditar.jpg",
+      title: "Área de Meditação",
     },
     {
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/24-danpris-terraco-itu-externas-pista-de-cooper-e-bike-hr00-easy-resize-com-deab0d7e3c006b52f7066e6a00906588903704141754576575277-PbIKPb2HBmaaXer8I8QLSuo1sB8Fvl.jpg",
-      title: "Pista de Cooper e Bike",
+      src: "maxim-academia.jpg",
+      title: "Academia Moderna",
     },
     {
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/23-danpris-terraco-itu-externas-quadra-poli-e-tenis-hr00-easy-resize-com-4d72011107c3ae41a4cc339daec63c54b1253f961754576575301-zDPXkFR0SRG1fjcc4CCkWECHtJZqLS.jpg",
-      title: "Quadras Poliesportiva e de Tênis",
+      src: "maxim-externo.jpg",
+      title: "Área de lazer completa",
     },
   ]
 
@@ -48,7 +48,7 @@ export function MaximGallery() {
   }
 
   return (
-    <section id="galeria" className="py-24 bg-muted">
+    <section id="gallery" className="py-24 bg-muted">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
