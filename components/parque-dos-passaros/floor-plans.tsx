@@ -41,7 +41,7 @@ export function ParquePassarosFloorPlans() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Plantas <span className="text-[#c01616]">Inteligentes</span>
+            Empreendimentos <span className="text-[#c01616]">Inteligentes</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Escolha a planta ideal para sua família. De 51,61m² até 80,16m² com aproveitamento máximo de cada espaço

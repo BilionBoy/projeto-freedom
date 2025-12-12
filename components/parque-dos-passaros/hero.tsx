@@ -22,7 +22,7 @@ export function ParquePassarosHero() {
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#c01616]/10 rounded-full blur-3xl animate-pulse delay-1000" />
       </div>
 
-      {/* Content */}
+     {/* Content */}
       <div className="container mx-auto px-4 z-20 pt-20">
         <div className="max-w-6xl mx-auto">
           <motion.div
@@ -39,8 +39,8 @@ export function ParquePassarosHero() {
 
             {/* Main heading */}
             <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-balance leading-[1.05] tracking-tight">
-              Parque dos Pássaros <br />
-              <span className="text-[#c01616]">Residencial</span>
+              Bairro Parque dos Pássaros <br />
+              <span className="text-[#c01616]">...</span>
             </h1>
 
             {/* Subheading */}
@@ -56,7 +56,7 @@ export function ParquePassarosHero() {
             </p>
 
             {/* Key features */}
-            <div className="flex flex-wrap justify-center gap-6 mb-12">
+            {/* <div className="flex flex-wrap justify-center gap-6 mb-12">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -97,7 +97,7 @@ export function ParquePassarosHero() {
               </motion.div>
             </div>
 
-            {/* Area info */}
+            {/* Area info
             <div className="inline-flex items-center gap-6 bg-white/10 backdrop-blur-md px-8 py-4 rounded-2xl mb-12 border border-white/20">
               <div className="text-center">
                 <p className="text-3xl font-bold text-[#c01616]">51,61m²</p>
@@ -108,7 +108,7 @@ export function ParquePassarosHero() {
                 <p className="text-3xl font-bold text-[#c01616]">80,16m²</p>
                 <p className="text-xs text-white/70">Área Privativa</p>
               </div>
-            </div>
+            </div>*/}
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

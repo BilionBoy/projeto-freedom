@@ -18,7 +18,7 @@ interface Property {
 const properties: Property[] = [
   { // tentativa numero 1
     id: "parque-dos-passaros", // vai ser criado ainda
-    name: "Parque dos Pássaros Resiencial", // vai ser criado ainda
+    name: "Bairro Parque dos Pássaros", // vai ser criado ainda
     location: "Endereço fictício", // vai ser criado ainda
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fachada-Ls3u18q4mqoOrJERGG1tTNGzMKUXC6.webp",
     status: "lancamento",

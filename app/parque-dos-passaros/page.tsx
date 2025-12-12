@@ -9,6 +9,7 @@ import { ParquePassarosLocation } from "@/components/parque-dos-passaros/locatio
 import { FreedomAtende } from "@/components/freedom-atende"
 import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
+import { VirtuallTours } from "@/components/vista-parque/virtual-tours"
 
 export default function ParquePassarosPage() {
   return (
@@ -20,6 +21,7 @@ export default function ParquePassarosPage() {
       <ParquePassarosAmenities />
       <ParquePassarosGallery />
       <ParquePassarosFloorPlans />
+      <VirtuallTours />
       <ParquePassarosLocation />
       <FreedomAtende />
       <Contact />
