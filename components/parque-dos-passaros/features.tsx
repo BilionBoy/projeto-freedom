@@ -1,4 +1,4 @@
-"use client"
+/*"use client"
 
 import { Card } from "@/components/ui/card"
 import { Home, Maximize2, Wind, Sun, Shield, Zap } from "lucide-react"
@@ -77,4 +77,4 @@ export function ParquePassarosFeatures() {
       </div>
     </section>
   )
-}
+}*/

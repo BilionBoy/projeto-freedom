@@ -43,13 +43,10 @@ export function ParquePassarosAbout() {
             <span className="text-sm font-medium text-[#c01616]">BREVE LANÇAMENTO</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-balance">
-            O Parque dos Pássaros da <span className="text-[#c01616]">Construtora Rio Branco</span>
+            Bairro <span className="text-[#c01616]">Parque dos Pássaros</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Une conforto e uma localização privilegiada. São duas torres com 2 elevadores cada e apartamentos com
-            plantas inteligentes e varanda gourmet. O grande destaque é o lazer no rooftop, que oferece vista
-            panorâmica, salão de festas e jogos, brinquedoteca e área gourmet, além da piscina, playground, quadra e
-            espaço pet no térreo para garantir a diversão de toda a família.
+            Um bairro onde termos os maiores empreendimentos..
           </p>
         </motion.div>
 

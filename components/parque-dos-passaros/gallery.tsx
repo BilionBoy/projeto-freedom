@@ -1,4 +1,4 @@
-"use client"
+/*"use client"
 
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
@@ -96,7 +96,7 @@ export function ParquePassarosGallery() {
         </div>
       </div>
 
-      {/* Lightbox */}
+      {/* Lightbox 
       <AnimatePresence>
         {selectedImage !== null && (
           <motion.div
@@ -162,4 +162,4 @@ export function ParquePassarosGallery() {
       </AnimatePresence>
     </section>
   )
-}
+}*/

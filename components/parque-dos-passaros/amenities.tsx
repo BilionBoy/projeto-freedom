@@ -1,4 +1,4 @@
-"use client"
+/*"use client"
 
 import { Card } from "@/components/ui/card"
 import { Waves, Users, Dumbbell, Baby, Dog, TreePine, PartyPopper, Gamepad2 } from "lucide-react"
@@ -68,7 +68,7 @@ export function ParquePassarosAmenities() {
           </p>
         </motion.div>
 
-        {/* Rooftop Section */}
+        {/* Rooftop Section *
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-12 h-12 bg-[#c01616] rounded-xl flex items-center justify-center">
@@ -119,7 +119,7 @@ export function ParquePassarosAmenities() {
           </motion.div>
         </div>
 
-        {/* Ground Level Section */}
+        {/* Ground Level Section *
         <div>
           <div className="flex items-center gap-3 mb-8">
             <div className="w-12 h-12 bg-[#c01616] rounded-xl flex items-center justify-center">
@@ -190,4 +190,4 @@ export function ParquePassarosAmenities() {
       </div>
     </section>
   )
-}
+}*/
