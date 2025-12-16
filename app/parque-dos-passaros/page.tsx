@@ -1136,7 +1136,7 @@ export default function ParquePassarosPage() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Ver Mais Detalhes
+                    Ver Mais Detalhes.
                   </a>
                 </Button>
               </div>
