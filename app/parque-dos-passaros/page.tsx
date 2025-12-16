@@ -228,6 +228,8 @@ export default function ParquePassarosPage() {
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
+                
+                
               </div>
               <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg group">
                 <Image
@@ -451,6 +453,22 @@ export default function ParquePassarosPage() {
                   fill
                   className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
                 />
+                {/* Botão de download */}
+                <a
+                  href="/uploads-20-2819-29.jpeg"
+                  download
+                  className="
+                    absolute top-4 right-4
+                    bg-red-600 hover:bg-red-700
+                    text-white text-sm font-semibold
+                    px-4 py-2 rounded-md
+                    shadow-lg
+                    opacity-0 group-hover:opacity-100
+                    transition
+                  "
+                >
+                  Baixar planta
+                </a>
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                   <p className="text-white text-sm font-semibold">
                     Planta Térreo e Tipo - Final 03
@@ -504,6 +522,7 @@ export default function ParquePassarosPage() {
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
+
               </div>
               <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg group">
                 <Image
@@ -762,6 +781,21 @@ export default function ParquePassarosPage() {
                   fill
                   className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
                 />
+                <a
+                  href="/tangara-planta-1.jpeg"
+                  download
+                  className="
+                    absolute top-4 right-4
+                    bg-red-600 hover:bg-red-700
+                    text-white text-sm font-semibold
+                    px-4 py-2 rounded-md
+                    shadow-lg
+                    opacity-0 group-hover:opacity-100
+                    transition
+                  "
+                >
+                  Baixar planta
+                </a>
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                   <p className="text-white text-sm font-semibold">
                     Final 02 - 12º ao 11º Pav.
@@ -775,6 +809,21 @@ export default function ParquePassarosPage() {
                   fill
                   className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
                 />
+                <a
+                  href="/tangara-planta-2.jpeg"
+                  download
+                  className="
+                    absolute top-4 right-4
+                    bg-red-600 hover:bg-red-700
+                    text-white text-sm font-semibold
+                    px-4 py-2 rounded-md
+                    shadow-lg
+                    opacity-0 group-hover:opacity-100
+                    transition
+                  "
+                  >
+                    Baixar planta
+                </a>
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                   <p className="text-white text-sm font-semibold">
                     Final 03 - Torre 01
@@ -788,6 +837,21 @@ export default function ParquePassarosPage() {
                   fill
                   className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
                 />
+                <a
+                  href="/tangara-planta-3.jpeg"
+                  download
+                  className="
+                    absolute top-4 right-4
+                    bg-red-600 hover:bg-red-700
+                    text-white text-sm font-semibold
+                    px-4 py-2 rounded-md
+                    shadow-lg
+                    opacity-0 group-hover:opacity-100
+                    transition
+                  "
+                >
+                  Baixar planta
+                </a>
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                   <p className="text-white text-sm font-semibold">
                     Final 04 - Torre 01
@@ -1111,6 +1175,21 @@ export default function ParquePassarosPage() {
                   fill
                   className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
                 />
+                <a
+                  href="/colibri-planta-1.jpeg"
+                  download
+                  className="
+                    absolute top-4 right-4
+                    bg-red-600 hover:bg-red-700
+                    text-white text-sm font-semibold
+                    px-4 py-2 rounded-md
+                    shadow-lg
+                    opacity-0 group-hover:opacity-100
+                    transition
+                  "
+                >
+                  Baixarplanta
+                </a>
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                   <p className="text-white text-sm font-semibold">
                     Final 01 - Torre 1
@@ -1124,6 +1203,21 @@ export default function ParquePassarosPage() {
                   fill
                   className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
                 />
+                <a
+                  href="/colibri-planta-2.jpeg"
+                  download
+                  className="
+                    absolute top-4 right-4
+                    bg-red-600 hover:bg-red-700
+                    text-white text-sm font-semibold
+                    px-4 py-2 rounded-md
+                    shadow-lg
+                    opacity-0 group-hover:opacity-100
+                    transition
+                  "
+                >
+                  Baixar planta
+                </a>
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                   <p className="text-white text-sm font-semibold">
                     PCD - Final 02 - Torre 1

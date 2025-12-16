@@ -155,13 +155,20 @@ export function EnhancedHeader({
       {/* Sticky CTA - Mobile */}
       {isScrolled && (
         <div className="fixed bottom-4 left-4 right-4 z-40 lg:hidden">
-          <Button
-            size="lg"
-            className="w-full gap-2 bg-[#c01616] hover:bg-[#a01212] text-white shadow-2xl"
-          >
-            <Phone className="h-4 w-4" />
-            Fale com um Especialista
-          </Button>
+          <a
+              href="https://wa.me/5511996810021?text=Olá,%20gostaria%20de%20falar%20com%20um%20especialista."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+            >
+            <Button
+              size="lg"
+              className="w-full gap-2 bg-[#c01616] hover:bg-[#a01212] text-white shadow-2xl"
+            >
+              <Phone className="h-4 w-4" />
+              Fale com um Especialista
+            </Button>
+          </a>
         </div>
       )}
     </>
