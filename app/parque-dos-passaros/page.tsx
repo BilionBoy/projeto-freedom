@@ -27,7 +27,7 @@ export default function ParquePassarosPage() {
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-balance max-w-3xl mx-auto leading-relaxed">
             Um bairro planejado com 4 empreendimentos exclusivos, natureza e
-            qualidade de vida
+            qualidade de vida.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full">
