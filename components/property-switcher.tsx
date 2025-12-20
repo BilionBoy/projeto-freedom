@@ -28,10 +28,9 @@ const properties: Property[] = [
   },
   {
     id: "bella-verona",
-    name: "Bella Verona Residencial",
+    name: "Bella Roma Residencial",
     location: "Itu/SP",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fachada-Ls3u18q4mqoOrJERGG1tTNGzMKUXC6.webp",
+    image: "/bella-roma.png",
     status: "lancamento",
     href: "/",
   },

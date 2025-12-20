@@ -95,14 +95,14 @@ export function EnhancedHeader({
             {/* CTA Button */}
             <div className="hidden lg:flex items-center gap-4">
               <a
-              href="https://wa.me/5511996810021?text=Olá,%20gostaria%20de%20falar%20com%20um%20especialista."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block"
+                href="https://wa.me/5511960606405?text=Olá,%20gostaria%20de%20falar%20com%20um%20especialista."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block cursor-pointer"
               >
                 <Button
                   size="lg"
-                  className="gap-2 bg-[#c01616] hover:bg-[#a01212] text-white"
+                  className="gap-2 bg-[#c01616] hover:bg-[#a01212] text-white cursor-pointer"
                 >
                   <Phone className="h-4 w-4" />
                   Fale Conosco
@@ -163,11 +163,11 @@ export function EnhancedHeader({
       {isScrolled && (
         <div className="fixed bottom-4 left-4 right-4 z-40 lg:hidden">
           <a
-              href="https://wa.me/5511996810021?text=Olá,%20gostaria%20de%20falar%20com%20um%20especialista."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block"
-            >
+            href="https://wa.me/5511996810021?text=Olá,%20gostaria%20de%20falar%20com%20um%20especialista."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
             <Button
               size="lg"
               className="w-full gap-2 bg-[#c01616] hover:bg-[#a01212] text-white shadow-2xl"

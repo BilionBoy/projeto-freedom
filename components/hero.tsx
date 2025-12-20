@@ -1,17 +1,20 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button"
-import { ArrowRight, MapPin, Home, Car, Waves } from "lucide-react"
-import { motion } from "framer-motion"
+import { Button } from "@/components/ui/button";
+import { ArrowRight, MapPin, Home, Car, Waves } from "lucide-react";
+import { motion } from "framer-motion";
 
 export function Hero() {
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section
+      id="hero"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+    >
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80 z-10" />
         <img
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fachada-Ls3u18q4mqoOrJERGG1tTNGzMKUXC6.webp"
-          alt="Bella Verona Residencial - Fachada 3D"
+          src="/bella-roma.png"
+          alt="Bella Roma Residencial - Fachada 3D"
           className="w-full h-full object-cover scale-105"
         />
       </div>
@@ -34,25 +37,28 @@ export function Hero() {
             {/* Location badge */}
             <div className="inline-flex items-center gap-2 bg-[#c01616]/20 backdrop-blur-md px-6 py-3 rounded-full mb-8 border border-[#c01616]/30">
               <MapPin className="h-5 w-5 text-[#c01616]" />
-              <span className="text-sm font-medium tracking-wide">Lançamento em Itu/SP</span>
+              <span className="text-sm font-medium tracking-wide">
+                Lançamento em Itu/SP • Bairro Nossa Senhora da Candelária
+              </span>
             </div>
 
             {/* Main heading */}
             <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-balance leading-[1.05] tracking-tight">
-              Bella Verona <br />
+              Bella Roma <br />
               <span className="text-[#c01616]">Residencial</span>
             </h1>
 
             {/* Subheading */}
             <p className="text-3xl md:text-4xl lg:text-5xl font-light mb-8 text-balance tracking-wide">
-              Sua Nova Fase Começa em Itu
+              O Seu Primeiro Imóvel em Itu Começa Aqui
             </p>
 
             {/* Description */}
             <p className="text-base md:text-lg text-white/90 mb-12 max-w-3xl mx-auto text-pretty leading-relaxed">
-              Descubra a essência de viver bem no Bella Verona Residencial. Com unidades de 2 dormitórios, varanda e
-              vaga de garagem, esta é a oportunidade perfeita para iniciar uma nova fase da sua vida com conforto e
-              estilo.
+              O Bella Roma Residencial foi planejado para quem deseja conquistar
+              o primeiro imóvel com o melhor custo-benefício de Itu.
+              Apartamentos com 2 dormitórios, varanda e opções com suíte, em um
+              condomínio completo e moderno.
             </p>
 
             {/* Key features */}
@@ -66,7 +72,9 @@ export function Hero() {
                 <Home className="h-6 w-6 text-[#c01616]" />
                 <div className="text-left">
                   <p className="text-2xl font-bold">2</p>
-                  <p className="text-xs text-white/70">Dormitórios</p>
+                  <p className="text-xs text-white/70">
+                    Dormitórios (com opção suíte)
+                  </p>
                 </div>
               </motion.div>
 
@@ -98,21 +106,48 @@ export function Hero() {
             </div>
 
             {/* CTA Buttons */}
+            {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button
-                size="lg"
-                className="text-base px-10 py-7 gap-2 group bg-[#c01616] hover:bg-[#a01212] text-white font-medium shadow-2xl shadow-[#c01616]/20"
+              {/* Conheça o Bella Roma */}
+              <a href="#about" className="cursor-pointer">
+                <Button
+                  size="lg"
+                  className="
+        text-base px-10 py-7 gap-2 group
+        bg-[#c01616] hover:bg-[#a01212]
+        text-white font-medium
+        shadow-2xl shadow-[#c01616]/20
+        cursor-pointer
+      "
+                >
+                  Conheça o Bella Roma
+                  <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </a>
+
+              {/* Simular Financiamento */}
+              <a
+                href="https://wa.me/5511960606405?text=Olá,%20gostaria%20de%20simular%20o%20financiamento%20do%20Bella%20Roma."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cursor-pointer"
               >
-                Conheça o Empreendimento
-                <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="text-base px-10 py-7 bg-white/10 backdrop-blur-sm border-white/20 text-white hover:bg-white hover:text-black font-medium"
-              >
-                Simular Financiamento
-              </Button>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="
+        text-base px-10 py-7
+        bg-white/10 backdrop-blur-sm
+        border-white/20
+        text-white
+        hover:bg-white hover:text-black
+        font-medium
+        cursor-pointer
+      "
+                >
+                  Simular Financiamento
+                </Button>
+              </a>
             </div>
           </motion.div>
 
@@ -124,25 +159,16 @@ export function Hero() {
             className="text-center mt-16"
           >
             <p className="text-xl md:text-2xl font-light text-white/80 mb-2">
-              Realize seu sonho com a <span className="text-[#c01616] font-bold">FREEDOM!</span>
+              A partir de{" "}
+              <span className="text-[#c01616] font-bold">R$ 205.000</span>
             </p>
             <p className="text-lg md:text-xl font-light text-white/60">
-              Chegou a sua hora de ter <span className="text-white font-medium">LIBERDADE</span>.
+              Entrada facilitada • Ideal para conquistar o{" "}
+              <span className="text-white font-medium">1º imóvel</span>
             </p>
           </motion.div>
         </div>
       </div>
-
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20">
-        <motion.div
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY }}
-          className="w-6 h-10 border-2 border-white/50 rounded-full flex items-start justify-center p-2"
-        >
-          <div className="w-1 h-2 bg-white/70 rounded-full" />
-        </motion.div>
-      </div>
     </section>
-  )
+  );
 }
