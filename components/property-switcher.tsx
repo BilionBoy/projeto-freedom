@@ -1,26 +1,28 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { ChevronDown, Building2, Check } from "lucide-react"
-import Link from "next/link"
-import { motion, AnimatePresence } from "framer-motion"
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { ChevronDown, Building2, Check } from "lucide-react";
+import Link from "next/link";
+import { motion, AnimatePresence } from "framer-motion";
 
 interface Property {
-  id: string
-  name: string
-  location: string
-  image: string
-  status: "lancamento" | "em-obras" | "pronto"
-  href: string
+  id: string;
+  name: string;
+  location: string;
+  image: string;
+  status: "lancamento" | "em-obras" | "pronto";
+  href: string;
 }
 
 const properties: Property[] = [
-  { // tentativa numero 1
+  {
+    // tentativa numero 1
     id: "parque-dos-passaros", // vai ser criado ainda
     name: "Bairro Parque dos Pássaros", // vai ser criado ainda
-    location: "Endereço fictício", // vai ser criado ainda
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fachada-Ls3u18q4mqoOrJERGG1tTNGzMKUXC6.webp",
+    location: "Indaiatuba/SP", // vai ser criado ainda
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fachada-Ls3u18q4mqoOrJERGG1tTNGzMKUXC6.webp",
     status: "lancamento",
     href: "/parque-dos-passaros", // vai ser criado ainda
   },
@@ -28,7 +30,8 @@ const properties: Property[] = [
     id: "bella-verona",
     name: "Bella Verona Residencial",
     location: "Itu/SP",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fachada-Ls3u18q4mqoOrJERGG1tTNGzMKUXC6.webp",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fachada-Ls3u18q4mqoOrJERGG1tTNGzMKUXC6.webp",
     status: "lancamento",
     href: "/",
   },
@@ -50,35 +53,50 @@ const properties: Property[] = [
     status: "pronto",
     href: "/maxim-home-club",
   },
-]
+];
 
 interface PropertySwitcherProps {
-  currentProperty?: string
-  isScrolled?: boolean
+  currentProperty?: string;
+  isScrolled?: boolean;
 }
 
-export function PropertySwitcher({ currentProperty = "bella-verona", isScrolled = false }: PropertySwitcherProps) {
-  const [isOpen, setIsOpen] = useState(false)
-  const current = properties.find((p) => p.id === currentProperty) || properties[0]
+export function PropertySwitcher({
+  currentProperty = "bella-verona",
+  isScrolled = false,
+}: PropertySwitcherProps) {
+  const [isOpen, setIsOpen] = useState(false);
+  const current =
+    properties.find((p) => p.id === currentProperty) || properties[0];
 
   return (
     <div className="relative">
       <Button
         variant="ghost"
         onClick={() => setIsOpen(!isOpen)}
-        className={`gap-2 ${isScrolled ? "text-[#575757] hover:text-[#c01616]" : "text-white hover:text-white/80"}`}
+        className={`gap-2 ${
+          isScrolled
+            ? "text-[#575757] hover:text-[#c01616]"
+            : "text-white hover:text-white/80"
+        }`}
       >
         <Building2 className="h-4 w-4" />
         <span className="hidden md:inline">{current.name}</span>
         <span className="md:hidden">{current.name.split(" ")[0]}</span>
-        <ChevronDown className={`h-4 w-4 transition-transform ${isOpen ? "rotate-180" : ""}`} />
+        <ChevronDown
+          className={`h-4 w-4 transition-transform ${
+            isOpen ? "rotate-180" : ""
+          }`}
+        />
       </Button>
 
       <AnimatePresence>
         {isOpen && (
           <>
             {/* Backdrop */}
-            <div className="fixed inset-0 z-40" onClick={() => setIsOpen(false)} />
+            <div
+              className="fixed inset-0 z-40"
+              onClick={() => setIsOpen(false)}
+            />
 
             {/* Dropdown */}
             <motion.div
@@ -88,12 +106,19 @@ export function PropertySwitcher({ currentProperty = "bella-verona", isScrolled 
               className="absolute top-full right-0 mt-2 w-80 bg-white rounded-xl shadow-2xl border border-border overflow-hidden z-50"
             >
               <div className="p-3 bg-muted border-b border-border">
-                <p className="text-xs font-medium text-muted-foreground">ESCOLHA O EMPREENDIMENTO</p>
+                <p className="text-xs font-medium text-muted-foreground">
+                  ESCOLHA O EMPREENDIMENTO
+                </p>
               </div>
 
               <div className="p-2">
                 {properties.map((property) => (
-                  <Link key={property.id} href={property.href} onClick={() => setIsOpen(false)} className="block group">
+                  <Link
+                    key={property.id}
+                    href={property.href}
+                    onClick={() => setIsOpen(false)}
+                    className="block group"
+                  >
                     <div
                       className={`flex items-center gap-3 p-3 rounded-lg transition-all ${
                         property.id === currentProperty
@@ -120,7 +145,9 @@ export function PropertySwitcher({ currentProperty = "bella-verona", isScrolled 
                             <p className="font-semibold text-sm text-foreground group-hover:text-[#c01616] transition-colors">
                               {property.name}
                             </p>
-                            <p className="text-xs text-muted-foreground">{property.location}</p>
+                            <p className="text-xs text-muted-foreground">
+                              {property.location}
+                            </p>
                           </div>
                           {property.id === currentProperty && (
                             <Check className="h-4 w-4 text-[#c01616] flex-shrink-0" />
@@ -133,12 +160,14 @@ export function PropertySwitcher({ currentProperty = "bella-verona", isScrolled 
               </div>
 
               <div className="p-3 bg-muted border-t border-border">
-                <p className="text-xs text-center text-muted-foreground">Mais empreendimentos em breve</p>
+                <p className="text-xs text-center text-muted-foreground">
+                  Mais empreendimentos em breve
+                </p>
               </div>
             </motion.div>
           </>
         )}
       </AnimatePresence>
     </div>
-  )
+  );
 }
