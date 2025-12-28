@@ -45,11 +45,15 @@ export function EnhancedHeader({
       >
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-20">
-            <Link href="/" className="flex items-center">
+            <Link href="/" className="flex items-center gap-2">
               <Image
-                src={isScrolled ? "/freedom-light.jpeg" : "/freedm-navbar.jpeg"}
+                src={
+                  isScrolled
+                    ? "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-raGiAuMQykNQE0S7U05WIJd1IXR5Nx.png"
+                    : "/freedm-navbar.jpeg"
+                }
                 alt="Freedom Planejamento Imobiliário"
-                width={180}
+                width={240}
                 height={56}
                 priority
                 className={`
@@ -59,6 +63,23 @@ export function EnhancedHeader({
       ${isScrolled ? "h-10" : "h-12"}
     `}
               />
+
+              {/* Texto complementar no scroll */}
+              <span
+                className={`
+      hidden sm:inline-block
+      text-base font-semibold tracking-wide
+      text-black
+      transition-all duration-300
+      ${
+        isScrolled
+          ? "opacity-100 translate-x-0"
+          : "opacity-0 -translate-x-2 pointer-events-none"
+      }
+    `}
+              >
+                Freedom Imobiliária
+              </span>
             </Link>
 
             {/* Desktop Navigation */}
