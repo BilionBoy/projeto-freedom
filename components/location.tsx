@@ -39,8 +39,6 @@ export function Location() {
                       Endereço
                     </h3>
                     <p className="text-muted-foreground leading-relaxed">
-                      R. Ana Lúcia Lopes de Morães, 980
-                      <br />
                       Nossa Senhora da Candelária
                       <br />
                       Itu - SP

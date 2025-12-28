@@ -192,10 +192,10 @@ Mensagem: ${message}
                     <div>
                       <p className="font-medium mb-1">E-mail</p>
                       <a
-                        href="mailto:julianelosilla@gmail.com"
+                        href="mailto:freedom@gmail.com"
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
-                        julianelosilla@gmail.com
+                        freedom@gmail.com
                       </a>
                     </div>
                   </div>

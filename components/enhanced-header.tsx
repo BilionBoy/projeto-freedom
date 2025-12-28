@@ -45,30 +45,20 @@ export function EnhancedHeader({
       >
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-20">
-            <Link href="/" className="flex items-center gap-2">
+            <Link href="/" className="flex items-center">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-raGiAuMQykNQE0S7U05WIJd1IXR5Nx.png"
-                alt="FREEDOM Logo"
-                width={40}
-                height={40}
-                className="w-10 h-10"
+                src={isScrolled ? "/freedom-light.jpeg" : "/freedm-navbar.jpeg"}
+                alt="Freedom Planejamento Imobiliário"
+                width={180}
+                height={56}
+                priority
+                className={`
+      h-12 w-auto
+      object-contain
+      transition-all duration-300
+      ${isScrolled ? "h-10" : "h-12"}
+    `}
               />
-              <div className="flex flex-col leading-tight">
-                <span
-                  className={`text-2xl font-bold font-serif ${
-                    isScrolled ? "text-[#c01616]" : "text-white"
-                  }`}
-                >
-                  Freedom
-                </span>
-                <span
-                  className={`text-xs tracking-wide ${
-                    isScrolled ? "text-[#575757]" : "text-white/80"
-                  }`}
-                >
-                  PLANEJAMENTO IMOBILIÁRIO
-                </span>
-              </div>
             </Link>
 
             {/* Desktop Navigation */}

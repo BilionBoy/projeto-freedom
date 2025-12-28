@@ -90,7 +90,7 @@ export default function ColibriSection() {
                           icon: MapPin,
                           label: "Localização",
                           value:
-                            "Bairro Bom Sucesso, em frente ao Lagos de Shanadu",
+                            "Bairro Bom Sucesso",
                         },
                         {
                           icon: Calendar,
