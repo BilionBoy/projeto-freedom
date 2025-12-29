@@ -106,13 +106,49 @@ export default function ParqueDosPassarosHero() {
               >
                 <Dialog open={open} onOpenChange={setOpen}>
                   <DialogTrigger asChild>
-                    <Button className="bg-gradient-to-r from-[#c01616] to-[#e01818] hover:from-[#a01414] hover:to-[#c01616] text-white px-6 py-5 md:px-10 md:py-7 rounded-xl md:rounded-2xl border-2 border-[#c01616] shadow-2xl shadow-[#c01616]/50 flex items-center gap-2 md:gap-3 text-base md:text-lg font-bold transition-all hover:scale-105 md:hover:scale-110 hover:shadow-[#c01616]/70 cursor-pointer group relative overflow-hidden w-full sm:w-auto">
-                      <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
-                      <Sparkles className="h-5 w-5 md:h-6 md:w-6 animate-pulse relative z-10" />
-                      <span className="relative z-10">Vem aí</span>
-                      <div className="absolute -top-1 -right-1 h-3 w-3 md:h-4 md:w-4 bg-yellow-400 rounded-full animate-ping" />
-                      <div className="absolute -top-1 -right-1 h-3 w-3 md:h-4 md:w-4 bg-yellow-400 rounded-full" />
-                    </Button>
+                    <button className="relative group cursor-pointer">
+                      {/* Main Button Container */}
+                      <div className="flex items-center gap-3 bg-gradient-to-br from-gray-900 via-gray-800 to-black backdrop-blur-sm px-5 py-3 md:px-6 md:py-4 rounded-xl border-2 border-[#c01616]/60 shadow-2xl shadow-[#c01616]/30 transition-all hover:scale-105 hover:shadow-[#c01616]/50 hover:border-[#c01616] overflow-hidden">
+                        {/* Shine Effect */}
+                        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#c01616]/10 to-transparent translate-x-[-200%] group-hover:translate-x-[200%] transition-transform duration-700" />
+
+                        {/* Icon with glow */}
+                        <div className="relative">
+                          <Sparkles className="h-5 w-5 md:h-6 md:w-6 text-[#c01616] animate-pulse drop-shadow-[0_0_8px_rgba(192,22,22,0.8)]" />
+                        </div>
+
+                        <div className="text-left relative z-10">
+                          <p className="text-xl md:text-2xl font-bold text-white drop-shadow-md">
+                            Vem aí
+                          </p>
+                          <p className="text-xs text-[#c01616] font-semibold">
+                            Novos Lançamentos
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Large Notification Badge */}
+                      <div className="absolute -top-3 -right-3 z-50">
+                        {/* Pulsing rings */}
+                        <div className="absolute inset-0 flex items-center justify-center">
+                          <div className="absolute h-12 w-12 bg-[#c01616] rounded-full animate-ping opacity-40" />
+                          <div className="absolute h-12 w-12 bg-[#c01616] rounded-full animate-pulse opacity-30" />
+                        </div>
+
+                        {/* Badge */}
+                        <div className="relative h-12 w-12 bg-gradient-to-br from-gray-900 via-gray-800 to-black rounded-full border-3 border-[#c01616] flex flex-col items-center justify-center shadow-2xl shadow-[#c01616]/60 group-hover:scale-110 transition-transform">
+                          <span className="text-xl font-black text-white leading-none">
+                            4
+                          </span>
+                          <span className="text-[8px] font-bold text-[#c01616] uppercase leading-none">
+                            Novos
+                          </span>
+                        </div>
+                      </div>
+
+                      {/* Glow effect */}
+                      <div className="absolute inset-0 rounded-xl bg-[#c01616]/20 blur-xl group-hover:bg-[#c01616]/40 transition-all -z-10" />
+                    </button>
                   </DialogTrigger>
                   <DialogContent className="max-w-[95vw] sm:max-w-[90vw] md:max-w-2xl bg-white p-0 gap-0 overflow-hidden border-2 border-[#c01616]/20 max-h-[90vh] overflow-y-auto">
                     <DialogHeader className="bg-gradient-to-r from-[#c01616] to-[#e01818] p-5 md:p-8 text-white relative overflow-hidden">
