@@ -89,7 +89,7 @@ export function FreedomAtende() {
           <div className="inline-flex items-center gap-2 text-muted-foreground">
             <Clock className="h-4 w-4 text-[#c01616]" />
             <span className="text-sm">
-              Escritório: Itu/SP - Atendemos toda a região
+              Escritório: Salto/SP - Atendemos toda a região
             </span>
           </div>
         </motion.div>
