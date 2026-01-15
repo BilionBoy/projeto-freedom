@@ -12,6 +12,7 @@ import { FinancingSimulator } from "@/components/financing-simulator";
 import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
 import { EnhancedHeader } from "@/components/enhanced-header";
+import { BellaRomaFeatures } from "@/components/bella-roma/bella-roma-features";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <FreedomShowcase />
       <FreedomAtende />
       <About />
+      <BellaRomaFeatures />
       <Features />
       <ImmersiveAmenities />
       <Gallery />
