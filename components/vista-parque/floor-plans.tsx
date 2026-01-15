@@ -1,16 +1,23 @@
-"use client"
+"use client";
 
-import { Card } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Home, Maximize2, Download } from "lucide-react"
-import { motion } from "framer-motion"
+import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Home, Maximize2, Download } from "lucide-react";
+import { motion } from "framer-motion";
 
 export function VistaParqueFloorPlans() {
   const plans = [
     {
       title: "2 Dormitórios",
       area: "51,61m²",
-      features: ["2 Dormitórios", "Sala integrada", "Cozinha", "Banheiro", "Varanda Gourmet", "1 Vaga"],
+      features: [
+        "2 Dormitórios",
+        "Sala integrada",
+        "Cozinha",
+        "Banheiro",
+        "Varanda Gourmet",
+        "1 Vaga",
+      ],
     },
     {
       title: "2 Dormitórios com Suíte",
@@ -27,9 +34,17 @@ export function VistaParqueFloorPlans() {
     {
       title: "Garden",
       area: "Até 80,16m²",
-      features: ["2 Dormitórios", "Jardim privativo", "Sala integrada", "Cozinha", "Banheiro", "Varanda", "1 Vaga"],
+      features: [
+        "2 Dormitórios",
+        "Jardim privativo",
+        "Sala integrada",
+        "Cozinha",
+        "Banheiro",
+        "Varanda",
+        "1 Vaga",
+      ],
     },
-  ]
+  ];
 
   return (
     <section id="floor-plans" className="py-24 bg-white">
@@ -44,7 +59,8 @@ export function VistaParqueFloorPlans() {
             Plantas <span className="text-[#c01616]">Inteligentes</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Escolha a planta ideal para sua família. De 51,61m² até 80,16m² com aproveitamento máximo de cada espaço
+            Escolha a planta ideal para sua família. De 51,61m² até 80,16m² com
+            aproveitamento máximo de cada espaço
           </p>
         </motion.div>
 
@@ -73,7 +89,10 @@ export function VistaParqueFloorPlans() {
 
                 <ul className="space-y-2 mb-6">
                   {plan.features.map((feature) => (
-                    <li key={feature} className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <li
+                      key={feature}
+                      className="flex items-center gap-2 text-sm text-muted-foreground"
+                    >
                       <div className="w-1.5 h-1.5 bg-[#c01616] rounded-full" />
                       {feature}
                     </li>
@@ -88,21 +107,7 @@ export function VistaParqueFloorPlans() {
             </motion.div>
           ))}
         </div>
-
-        {/* Material de divulgação */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="relative h-[600px] rounded-2xl overflow-hidden"
-        >
-          <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp_Image_2025-10-29_at_14.13.00-H4QaC6yVj2Zd8sqkITXz2lm5AFZLQT.jpeg"
-            alt="Material de Divulgação Vista Parque"
-            className="w-full h-full object-contain bg-muted"
-          />
-        </motion.div>
       </div>
     </section>
-  )
+  );
 }

@@ -1,32 +1,35 @@
-"use client"
+"use client";
 
-import { Card } from "@/components/ui/card"
-import { Building2, MapPin, Award, Map } from "lucide-react"
-import { motion } from "framer-motion"
+import { Card } from "@/components/ui/card";
+import { Building2, MapPin, Award, Map } from "lucide-react";
+import { motion } from "framer-motion";
 
 export function VistaParqueAbout() {
   const highlights = [
     {
       icon: Building2,
       title: "Duas Torres Modernas",
-      description: "2 elevadores por torre para maior comodidade e agilidade no seu dia a dia",
+      description:
+        "2 elevadores por torre para maior comodidade e agilidade no seu dia a dia",
     },
     {
       icon: Map,
       title: "Plantas Inteligentes",
-      description: "De 51,61m² até 80,16m² com aproveitamento máximo de cada espaço",
+      description:
+        "De 51,61m² até 80,16m² com aproveitamento máximo de cada espaço",
     },
     {
       icon: MapPin,
       title: "Localização Privilegiada",
-      description: "Central Parque em Salto/SP, próximo a tudo que você precisa",
+      description:
+        "Central Parque em Salto/SP, próximo a tudo que você precisa",
     },
     {
       icon: Award,
       title: "Construtora Rio Branco",
       description: "Tradição e qualidade reconhecidas no mercado imobiliário",
     },
-  ]
+  ];
 
   return (
     <section id="about" className="py-24 bg-white">
@@ -39,16 +42,21 @@ export function VistaParqueAbout() {
         >
           <div className="inline-flex items-center gap-2 bg-[#c01616]/10 px-4 py-2 rounded-full mb-4">
             <Map className="h-4 w-4 text-[#c01616]" />
-            <span className="text-sm font-medium text-[#c01616]">BREVE LANÇAMENTO</span>
+            <span className="text-sm font-medium text-[#c01616]">
+              BREVE LANÇAMENTO
+            </span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-balance">
-            O Vista Parque da <span className="text-[#c01616]">Construtora Rio Branco</span>
+            O Vista Parque da{" "}
+            <span className="text-[#c01616]">Construtora Rio Branco</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Une conforto e uma localização privilegiada. São duas torres com 2 elevadores cada e apartamentos com
-            plantas inteligentes e varanda gourmet. O grande destaque é o lazer no rooftop, que oferece vista
-            panorâmica, salão de festas e jogos, brinquedoteca e área gourmet, além da piscina, playground, quadra e
-            espaço pet no térreo para garantir a diversão de toda a família.
+            Une conforto e uma localização privilegiada. São duas torres com 2
+            elevadores cada e apartamentos com plantas inteligentes e varanda
+            gourmet. O grande destaque é o lazer no rooftop, que oferece vista
+            panorâmica, salão de festas e jogos, brinquedoteca e área gourmet,
+            além da piscina, playground, quadra e espaço pet no térreo para
+            garantir a diversão de toda a família.
           </p>
         </motion.div>
 
@@ -66,7 +74,9 @@ export function VistaParqueAbout() {
                   <item.icon className="h-6 w-6 text-[#c01616]" />
                 </div>
                 <h3 className="font-bold text-lg mb-2">{item.title}</h3>
-                <p className="text-sm text-muted-foreground leading-relaxed">{item.description}</p>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  {item.description}
+                </p>
               </Card>
             </motion.div>
           ))}
@@ -88,7 +98,9 @@ export function VistaParqueAbout() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
             <div className="absolute bottom-6 left-6 text-white">
               <p className="text-2xl font-bold">Fachada Principal</p>
-              <p className="text-sm text-white/80">Ambientes integrados e modernos</p>
+              <p className="text-sm text-white/80">
+                Ambientes integrados e modernos
+              </p>
             </div>
           </div>
 
@@ -101,11 +113,13 @@ export function VistaParqueAbout() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
             <div className="absolute bottom-6 left-6 text-white">
               <p className="text-2xl font-bold">Apartamento Completo</p>
-              <p className="text-sm text-white/80">Todo conforto que sua família precisa</p>
+              <p className="text-sm text-white/80">
+                Todo conforto que sua família precisa
+              </p>
             </div>
           </div>
         </motion.div>
       </div>
     </section>
-  )
+  );
 }

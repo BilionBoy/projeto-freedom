@@ -1,12 +1,21 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button"
-import { ArrowRight, MapPin, Home, Waves, Trees } from "lucide-react"
-import { motion } from "framer-motion"
+import { Button } from "@/components/ui/button";
+import { ArrowRight, MapPin, Home, Waves, Trees } from "lucide-react";
+import { motion } from "framer-motion";
+
+const whatsappLink =
+  "https://wa.me/5511960606405?text=" +
+  encodeURIComponent(
+    "Olá! Gostaria de conhecer melhor o empreendimento Vista Parque."
+  );
 
 export function VistaParqueHero() {
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section
+      id="hero"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+    >
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80 z-10" />
         <img
@@ -34,7 +43,9 @@ export function VistaParqueHero() {
             {/* Location badge */}
             <div className="inline-flex items-center gap-2 bg-[#c01616]/20 backdrop-blur-md px-6 py-3 rounded-full mb-8 border border-[#c01616]/30">
               <MapPin className="h-5 w-5 text-[#c01616]" />
-              <span className="text-sm font-medium tracking-wide">Lançamento em Salto/SP - Central Parque</span>
+              <span className="text-sm font-medium tracking-wide">
+                Lançamento em Salto/SP - Central Parque
+              </span>
             </div>
 
             {/* Main heading */}
@@ -50,9 +61,10 @@ export function VistaParqueHero() {
 
             {/* Description */}
             <p className="text-base md:text-lg text-white/90 mb-12 max-w-3xl mx-auto text-pretty leading-relaxed">
-              Único e inovador! Com qualidade e localização privilegiada que você merece. Duas torres com 2 elevadores
-              cada, apartamentos com plantas inteligentes e varanda gourmet. Lazer completo no rooftop com vista
-              panorâmica.
+              Único e inovador! Com qualidade e localização privilegiada que
+              você merece. Duas torres com 2 elevadores cada, apartamentos com
+              plantas inteligentes e varanda gourmet. Lazer completo no rooftop
+              com vista panorâmica.
             </p>
 
             {/* Key features */}
@@ -113,18 +125,33 @@ export function VistaParqueHero() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button
+                asChild
                 size="lg"
                 className="text-base px-10 py-7 gap-2 group bg-[#c01616] hover:bg-[#a01212] text-white font-medium shadow-2xl shadow-[#c01616]/20"
               >
-                Conheça o Empreendimento
-                <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                <a
+                  href={whatsappLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Conheça o Empreendimento
+                  <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                </a>
               </Button>
+
               <Button
+                asChild
                 size="lg"
                 variant="outline"
                 className="text-base px-10 py-7 bg-white/10 backdrop-blur-sm border-white/20 text-white hover:bg-white hover:text-black font-medium"
               >
-                Simular Financiamento
+                <a
+                  href={whatsappLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Simular Financiamento
+                </a>
               </Button>
             </div>
           </motion.div>
@@ -137,9 +164,12 @@ export function VistaParqueHero() {
             className="text-center mt-16"
           >
             <p className="text-xl md:text-2xl font-light text-white/80 mb-2">
-              Um projeto que abre mais espaço para sua <span className="text-[#c01616] font-bold">FELICIDADE!</span>
+              Um projeto que abre mais espaço para sua{" "}
+              <span className="text-[#c01616] font-bold">FELICIDADE!</span>
             </p>
-            <p className="text-sm text-white/60">Construtora Rio Branco - Qualidade e Tradição</p>
+            <p className="text-sm text-white/60">
+              Construtora Rio Branco - Qualidade e Tradição
+            </p>
           </motion.div>
         </div>
       </div>
@@ -155,5 +185,5 @@ export function VistaParqueHero() {
         </motion.div>
       </div>
     </section>
-  )
+  );
 }
