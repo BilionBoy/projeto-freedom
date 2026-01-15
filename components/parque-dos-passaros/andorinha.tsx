@@ -61,8 +61,7 @@ export default function AndorinhaSection() {
                         {
                           icon: MapPin,
                           label: "Localização",
-                          value:
-                            "Bairro Bom Sucesso",
+                          value: "Bairro Bom Sucesso",
                         },
                         {
                           icon: Calendar,
@@ -170,8 +169,7 @@ export default function AndorinhaSection() {
           className="max-w-6xl mx-auto mb-20"
         >
           <h3 className="font-serif text-3xl font-bold mb-8 text-center text-white">
-            Tour Virtual –{" "}
-            <span className="text-[#c01616]">Andorinha </span>
+            Tour Virtual – <span className="text-[#c01616]">Andorinha </span>
           </h3>
           <div className="bg-black rounded-xl overflow-hidden border border-white/10">
             <div className="aspect-video">
@@ -184,15 +182,15 @@ export default function AndorinhaSection() {
             </div>
             <div className="p-6 text-center">
               <p className="text-white/70 mb-4">
-                Conheça os detalhes do Gran Vic Andorinha em nosso tour
-                virtual 360°
+                Conheça os detalhes do Gran Vic Andorinha em nosso tour virtual
+                360°
               </p>
               <Button
                 asChild
                 className="bg-[#c01616] hover:bg-[#a01414] text-white"
               >
                 <a
-                  href="https://vicengenharia.com.br/empreendimentos/gran-vic-andorinha/"
+                  href="https://wa.me/5511960606405?text=Olá!%20Gostaria%20de%20mais%20detalhes%20sobre%20o%20empreendimento%20Gran%20Vic%20Canário."
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -211,8 +209,7 @@ export default function AndorinhaSection() {
           className="max-w-7xl mx-auto"
         >
           <h3 className="font-serif text-3xl font-bold mb-8 text-center text-white">
-            Galeria de Fotos –{" "}
-            <span className="text-[#c01616]">Andorinha</span>
+            Galeria de Fotos – <span className="text-[#c01616]">Andorinha</span>
           </h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[

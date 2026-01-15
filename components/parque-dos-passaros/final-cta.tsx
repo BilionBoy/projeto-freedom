@@ -50,7 +50,13 @@ export default function ParquePassarosFinalCTA() {
               "
               asChild
             >
-              <a href="#contato">Agendar Visita ao Decorado</a>
+              <a
+                href="https://wa.me/5511960606405?text=Olá!%20Gostaria%20de%20agendar%20uma%20visita%20ao%20apartamento%20decorado."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Agendar Visita ao Decorado
+              </a>
             </Button>
           </motion.div>
 
