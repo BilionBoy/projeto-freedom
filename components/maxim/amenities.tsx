@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { Card } from "@/components/ui/card"
+import { Card } from "@/components/ui/card";
 import {
   Waves,
   Dumbbell,
@@ -17,27 +17,87 @@ import {
   Wine,
   Palette,
   Heart,
-} from "lucide-react"
-import { motion } from "framer-motion"
+} from "lucide-react";
+import { motion } from "framer-motion";
 
 export function MaximAmenities() {
   const amenities = [
-    { icon: Waves, title: "Piscinas", description: "Adulto, infantil, aquecida e com toboágua" },
-    { icon: Dumbbell, title: "Fitness Completo", description: "Academia, crossfit, espaço lutas" },
-    { icon: PartyPopper, title: "Salão de Festas", description: "Com apoio e pergolado" },
-    { icon: TreePine, title: "Áreas Verdes", description: "Mini horta, praça central, espaço zen" },
-    { icon: Bike, title: "Pista Cooper/Bike", description: "Circuito completo para exercícios" },
-    { icon: Baby, title: "Espaço Kids", description: "Playground, brinquedoteca, cinema kids" },
-    { icon: Dog, title: "Pet Place", description: "Área exclusiva para seu pet" },
-    { icon: Pizza, title: "Espaço Gourmet", description: "Churrasqueira, forno de pizza, chef gourmet" },
-    { icon: Music, title: "Espaço Pub/Wine Bar", description: "Para confraternizar com amigos" },
-    { icon: Gamepad2, title: "Sala de Jogos", description: "Entretenimento para todas as idades" },
-    { icon: Film, title: "Cinema Kids", description: "Diversão garantida para as crianças" },
-    { icon: Briefcase, title: "Coworking", description: "Espaço para trabalhar de casa" },
-    { icon: Wine, title: "Espaço Redário", description: "Relaxamento ao ar livre" },
-    { icon: Palette, title: "Oficina de Artes", description: "Desenvolva sua criatividade" },
-    { icon: Heart, title: "Espaço Zen", description: "Yoga, massagem e meditação" },
-  ]
+    {
+      icon: Waves,
+      title: "Piscinas",
+      description: "Adulto, infantil, aquecida e com toboágua",
+    },
+    {
+      icon: Dumbbell,
+      title: "Fitness Completo",
+      description: "Academia, crossfit, espaço lutas",
+    },
+    {
+      icon: PartyPopper,
+      title: "Salão de Festas",
+      description: "Com apoio e pergolado",
+    },
+    {
+      icon: TreePine,
+      title: "Áreas Verdes",
+      description: "Mini horta, praça central, espaço zen",
+    },
+    {
+      icon: Bike,
+      title: "Pista Cooper/Bike",
+      description: "Circuito completo para exercícios",
+    },
+    {
+      icon: Baby,
+      title: "Espaço Kids",
+      description: "Playground, brinquedoteca, cinema kids",
+    },
+    {
+      icon: Dog,
+      title: "Pet Place",
+      description: "Área exclusiva para seu pet",
+    },
+    {
+      icon: Pizza,
+      title: "Espaço Gourmet",
+      description: "Churrasqueira, forno de pizza, chef gourmet",
+    },
+    {
+      icon: Music,
+      title: "Espaço Pub/Wine Bar",
+      description: "Para confraternizar com amigos",
+    },
+    {
+      icon: Gamepad2,
+      title: "Sala de Jogos",
+      description: "Entretenimento para todas as idades",
+    },
+    {
+      icon: Film,
+      title: "Cinema Kids",
+      description: "Diversão garantida para as crianças",
+    },
+    {
+      icon: Briefcase,
+      title: "Coworking",
+      description: "Espaço para trabalhar de casa",
+    },
+    {
+      icon: Wine,
+      title: "Espaço Redário",
+      description: "Relaxamento ao ar livre",
+    },
+    {
+      icon: Palette,
+      title: "Oficina de Artes",
+      description: "Desenvolva sua criatividade",
+    },
+    {
+      icon: Heart,
+      title: "Espaço Zen",
+      description: "Yoga, massagem e meditação",
+    },
+  ];
 
   return (
     <section id="lazer" className="py-24 bg-white">
@@ -50,14 +110,17 @@ export function MaximAmenities() {
         >
           <div className="inline-flex items-center gap-2 bg-[#c01616]/10 px-4 py-2 rounded-full mb-4">
             <Waves className="h-4 w-4 text-[#c01616]" />
-            <span className="text-sm font-medium text-[#c01616]">MAIS DE 40 ITENS</span>
+            <span className="text-sm font-medium text-[#c01616]">
+              MAIS DE 40 ITENS
+            </span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance">
-            Lazer Completo para Toda a <span className="text-[#c01616]">Família</span>
+            Diferenciais do{" "}
+            <span className="text-[#c01616]">Maxim Home Club</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty">
-            O maior clube de lazer de Itu com infraestrutura completa para você aproveitar todos os momentos com quem
-            você ama
+            O maior clube de lazer de Itu com infraestrutura completa para você
+            aproveitar todos os momentos com quem você ama
           </p>
         </motion.div>
 
@@ -75,7 +138,9 @@ export function MaximAmenities() {
                   <amenity.icon className="h-6 w-6 text-[#c01616]" />
                 </div>
                 <h3 className="font-bold text-sm mb-1">{amenity.title}</h3>
-                <p className="text-xs text-muted-foreground">{amenity.description}</p>
+                <p className="text-xs text-muted-foreground">
+                  {amenity.description}
+                </p>
               </Card>
             </motion.div>
           ))}
@@ -88,11 +153,11 @@ export function MaximAmenities() {
           className="mt-12 text-center"
         >
           <p className="text-sm text-muted-foreground">
-            E muito mais: quadra poliesportiva, quadra de tênis, beach tennis, minigolf, pista de skate, praça luau,
-            espaço picnic e bicicletário
+            E muito mais: quadra poliesportiva, quadra de tênis, beach tennis,
+            minigolf, pista de skate, praça luau, espaço picnic e bicicletário
           </p>
         </motion.div>
       </div>
     </section>
-  )
+  );
 }
