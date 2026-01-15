@@ -81,7 +81,7 @@ export default function ParqueDosPassarosHero() {
             </p>
 
             <p className="text-sm sm:text-base md:text-lg text-white/90 mb-8 md:mb-12 max-w-3xl mx-auto leading-relaxed px-4">
-              Um bairro planejado com 4 empreendimentos exclusivos, natureza
+              Um bairro planejado com 8 empreendimentos exclusivos, natureza
               integrada e qualidade de vida para você e sua família.
             </p>
 
@@ -94,7 +94,7 @@ export default function ParqueDosPassarosHero() {
               >
                 <Building2 className="h-5 w-5 md:h-6 md:w-6 text-[#c01616]" />
                 <div className="text-left">
-                  <p className="text-xl md:text-2xl font-bold">4</p>
+                  <p className="text-xl md:text-2xl font-bold">8</p>
                   <p className="text-xs text-white/70">Empreendimentos</p>
                 </div>
               </motion.div>

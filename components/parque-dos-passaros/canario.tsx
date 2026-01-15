@@ -30,7 +30,7 @@ export default function CanarioSection() {
             Gran Vic <span className="text-[#c01616]">Canário</span>
           </h2>
           <p className="text-xl text-white/70 max-w-3xl mx-auto">
-            Modernidade e conforto em um dos melhores locais de Bom Sucesso
+            Modernidade e conforto em um dos melhores locais de Idaiatuba
           </p>
         </motion.div>
 
@@ -61,8 +61,7 @@ export default function CanarioSection() {
                         {
                           icon: MapPin,
                           label: "Localização",
-                          value:
-                            "Bairro Bom Sucesso",
+                          value: "Bairro Bom Sucesso",
                         },
                         {
                           icon: Calendar,

@@ -27,7 +27,7 @@ export default function AndorinhaSection() {
           className="text-center mb-20"
         >
           <h2 className="font-serif text-5xl md:text-6xl font-bold mb-4 text-white">
-            Gran Vic <span className="text-[#c01616]">Andorinha Suíte</span>
+            Gran Vic <span className="text-[#c01616]">Andorinha</span>
           </h2>
           <p className="text-xl text-white/70 max-w-3xl mx-auto">
             Apartamentos com suíte para mais conforto e privacidade
@@ -171,7 +171,7 @@ export default function AndorinhaSection() {
         >
           <h3 className="font-serif text-3xl font-bold mb-8 text-center text-white">
             Tour Virtual –{" "}
-            <span className="text-[#c01616]">Andorinha Suíte</span>
+            <span className="text-[#c01616]">Andorinha </span>
           </h3>
           <div className="bg-black rounded-xl overflow-hidden border border-white/10">
             <div className="aspect-video">
@@ -179,12 +179,12 @@ export default function AndorinhaSection() {
                 src="https://vicengenharia.com.br/tour-virtual/andorinha/"
                 className="w-full h-full"
                 allowFullScreen
-                title="Tour Virtual Gran Vic Andorinha Suíte"
+                title="Tour Virtual Gran Vic Andorinha "
               />
             </div>
             <div className="p-6 text-center">
               <p className="text-white/70 mb-4">
-                Conheça os detalhes do Gran Vic Andorinha Suíte em nosso tour
+                Conheça os detalhes do Gran Vic Andorinha em nosso tour
                 virtual 360°
               </p>
               <Button
@@ -212,7 +212,7 @@ export default function AndorinhaSection() {
         >
           <h3 className="font-serif text-3xl font-bold mb-8 text-center text-white">
             Galeria de Fotos –{" "}
-            <span className="text-[#c01616]">Andorinha Suíte</span>
+            <span className="text-[#c01616]">Andorinha</span>
           </h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
@@ -229,7 +229,7 @@ export default function AndorinhaSection() {
               >
                 <Image
                   src={src}
-                  alt="Gran Vic Andorinha Suíte"
+                  alt="Gran Vic Andorinha"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
