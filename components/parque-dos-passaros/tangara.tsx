@@ -90,8 +90,7 @@ export default function TangaraSection() {
                         {
                           icon: MapPin,
                           label: "Localização",
-                          value:
-                            "Bairro Bom Sucesso",
+                          value: "Bairro Bom Sucesso",
                         },
                         {
                           icon: Calendar,
@@ -229,7 +228,13 @@ export default function TangaraSection() {
               className="bg-white text-[#c01616] hover:bg-gray-100"
               asChild
             >
-              <a href="#contato">Agendar Visita ao Decorado</a>
+              <a
+                href="https://wa.me/5511960606405?text=Olá!%20Gostaria%20de%20agendar%20uma%20visita%20ao%20apartamento%20decorado."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Agendar Visita ao Decorado
+              </a>
             </Button>
           </div>
         </motion.div>

@@ -193,7 +193,7 @@ export default function CanarioSection() {
                 className="bg-[#c01616] hover:bg-[#a01414] text-white"
               >
                 <a
-                  href="https://vicengenharia.com.br/empreendimentos/gran-vic-canario/"
+                  href="https://wa.me/5511960606405?text=Olá!%20Gostaria%20de%20mais%20detalhes%20sobre%20o%20empreendimento%20Gran%20Vic%20Canário."
                   target="_blank"
                   rel="noopener noreferrer"
                 >

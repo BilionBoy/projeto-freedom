@@ -3,7 +3,16 @@
 import type React from "react";
 
 import Image from "next/image";
-import { MapPin, Building2, Sparkles, Send } from "lucide-react";
+import {
+  MapPin,
+  Building2,
+  Sparkles,
+  Send,
+  Landmark,
+  Home,
+  Briefcase,
+  LucideIcon,
+} from "lucide-react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import {
@@ -21,11 +30,28 @@ export default function ParqueDosPassarosHero() {
   const [open, setOpen] = useState(false);
   const [formData, setFormData] = useState({ name: "", phone: "", email: "" });
   const upcomingDevelopments = [
-    { name: "Gran VIC Beija-Flor", icon: "🐦" },
-    { name: "Gran VIC Gaivota", icon: "🕊️" },
-    { name: "Gran VIC Bem-Te-Vi", icon: "🐤" },
-    { name: "Gran VIC Sabiá", icon: "🦜" },
+    { name: "Gran VIC Beija-Flor", icon: Building2 },
+    { name: "Gran VIC Gaivota", icon: Landmark },
+    { name: "Gran VIC Bem-Te-Vi", icon: Home },
+    { name: "Gran VIC Sabiá", icon: Briefcase },
   ];
+
+  const activeDevelopments: {
+    id: string;
+    name: string;
+    icon: LucideIcon;
+  }[] = [
+    { id: "canario", name: "Canário", icon: Building2 },
+    { id: "andorinha", name: "Andorinha", icon: Home },
+    { id: "tangara", name: "Tangará", icon: Landmark },
+    { id: "colibri", name: "Colibri", icon: Briefcase },
+  ];
+
+  const scrollToSection = (id: string) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -181,7 +207,7 @@ export default function ParqueDosPassarosHero() {
                             <div className="absolute top-0 right-0 w-16 h-16 md:w-20 md:h-20 bg-[#c01616]/5 rounded-full -translate-y-1/2 translate-x-1/2 group-hover:scale-150 transition-transform" />
                             <div className="relative z-10 flex items-center gap-3 md:gap-4">
                               <div className="text-3xl md:text-4xl">
-                                {dev.icon}
+                                <dev.icon className="w-8 h-8 md:w-10 md:h-10" />
                               </div>
                               <div className="flex-1">
                                 <p className="font-bold text-gray-900 text-base md:text-lg leading-tight">
@@ -292,6 +318,27 @@ export default function ParqueDosPassarosHero() {
                   </DialogContent>
                 </Dialog>
               </motion.div>
+            </div>
+            {/* 🔹 Guia rápido dos empreendimentos */}
+            <div className="flex flex-wrap justify-center gap-3 md:gap-4 mb-8 px-4">
+              {activeDevelopments.map((dev, index) => (
+                <motion.button
+                  key={dev.id}
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.4 + index * 0.05 }}
+                  onClick={() => scrollToSection(dev.id)}
+                  className="flex items-center gap-2 px-4 py-2 rounded-full
+                 bg-white/5 border border-white/10
+                 hover:border-[#c01616]/50 hover:bg-[#c01616]/10
+                 transition-all cursor-pointer"
+                >
+                  <dev.icon className="w-5 h-5 text-[#c01616]" />
+                  <span className="text-sm font-medium text-white">
+                    {dev.name}
+                  </span>
+                </motion.button>
+              ))}
             </div>
           </motion.div>
         </div>
