@@ -500,10 +500,10 @@ ${message ? `💬 *Mensagem:*\n${message}` : ""}
           <div>
             <p className="text-sm font-medium">E-mail</p>
             <a
-              href="mailto:freedom@gmail.com"
+              href="mailto:freedom.planejamento@gmail.com"
               className="text-sm text-muted-foreground hover:text-primary transition-colors"
             >
-              freedom@gmail.com
+              freedom.planejamento@gmail.com
             </a>
           </div>
         </div>

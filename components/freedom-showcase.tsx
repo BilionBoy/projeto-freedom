@@ -104,7 +104,7 @@ export function FreedomShowcase() {
           >
             {[
               { number: "500+", label: "Famílias Realizadas" },
-              { number: "15+", label: "Anos de Experiência" },
+              { number: "9+", label: "Anos de Experiência" },
               { number: "20+", label: "Empreendimentos" },
               { number: "98%", label: "Satisfação" },
             ].map((stat, index) => (

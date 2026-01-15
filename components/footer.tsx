@@ -64,8 +64,8 @@ export function Footer() {
               <h4 className="font-semibold text-lg mb-4">Contato</h4>
               <ul className="space-y-2 text-sm text-white/70">
                 <li>(11) 96060-6405</li>
-                <li>freedom@gmail.com</li>
-                <li>Itu - SP</li>
+                <li>freedom.planejamento@gmail.com</li>
+                <li>Salto - SP</li>
               </ul>
             </div>
 
