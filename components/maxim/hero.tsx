@@ -97,20 +97,33 @@ export function MaximHero() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button
-                size="lg"
-                className="text-base px-10 py-7 gap-2 group bg-[#c01616] hover:bg-[#a01212] text-white font-medium shadow-2xl shadow-[#c01616]/20"
+              <a
+                href="https://wa.me/5511960606405?text=Olá,%20gostaria%20de%20agendar%20uma%20visita."
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Agende sua Visita
-                <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="text-base px-10 py-7 bg-white/10 backdrop-blur-sm border-white/20 text-white hover:bg-white hover:text-black font-medium"
+                <Button
+                  size="lg"
+                  className="text-base px-10 py-7 gap-2 group bg-[#c01616] hover:bg-[#a01212] text-white font-medium shadow-2xl shadow-[#c01616]/20"
+                >
+                  Agende sua Visita
+                  <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </a>
+
+              <a
+                href="https://wa.me/5511960606405?text=Olá,%20gostaria%20de%20ver%20o%20decorado."
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Ver Decorado
-              </Button>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="text-base px-10 py-7 bg-white/10 backdrop-blur-sm border-white/20 text-white hover:bg-white hover:text-black font-medium"
+                >
+                  Ver Decorado
+                </Button>
+              </a>
             </div>
           </motion.div>
 

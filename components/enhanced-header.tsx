@@ -174,7 +174,7 @@ export function EnhancedHeader({
       {isScrolled && (
         <div className="fixed bottom-4 left-4 right-4 z-40 lg:hidden">
           <a
-            href="https://wa.me/5511996810021?text=Olá,%20gostaria%20de%20falar%20com%20um%20especialista."
+            href="https://wa.me/5511960606405?text=Olá,%20gostaria%20de%20falar%20com%20um%20especialista."
             target="_blank"
             rel="noopener noreferrer"
             className="block"
