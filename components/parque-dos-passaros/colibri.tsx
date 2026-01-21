@@ -89,8 +89,7 @@ export default function ColibriSection() {
                         {
                           icon: MapPin,
                           label: "Localização",
-                          value:
-                            "Bairro Bom Sucesso",
+                          value: "Bairro Bom Sucesso",
                         },
                         {
                           icon: Calendar,

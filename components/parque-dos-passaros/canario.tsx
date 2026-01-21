@@ -126,13 +126,13 @@ export default function CanarioSection() {
             ))}
           </div>
 
-          {/* Lazer */}
+          {/* Área de Lazer */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10 mb-16"
+            className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10 mb-12"
           >
             <h3 className="font-serif text-2xl font-bold mb-6 text-white">
               Área de Lazer Completa
@@ -154,6 +154,33 @@ export default function CanarioSection() {
                 "Bicicletário",
                 "Área de Jogos ao Ar Livre",
                 "Mercadinho (preparação)",
+              ].map((item) => (
+                <div key={item} className="flex items-center gap-2">
+                  <CheckCircle className="w-5 h-5 text-[#c01616]" />
+                  <span className="text-white/70">{item}</span>
+                </div>
+              ))}
+            </div>
+          </motion.div>
+
+          {/* Diferenciais dos Apartamentos */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-white/10 mb-16"
+          >
+            <h3 className="font-serif text-2xl font-bold mb-6 text-white">
+              Diferenciais dos Apartamentos
+            </h3>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-4">
+              {[
+                "Piso laminado na sala e quartos",
+                "Cerâmica nas áreas molhadas",
+                "Tomada USB na sala",
+                "Janelas em veneziana",
+                "Bancada em granito com cuba inox",
+                "Preparação para ar-condicionado",
               ].map((item) => (
                 <div key={item} className="flex items-center gap-2">
                   <CheckCircle className="w-5 h-5 text-[#c01616]" />
