@@ -78,7 +78,7 @@ export function EnhancedHeader({
       }
     `}
               >
-                Freedom Imobiliária
+                Freedom Planejamento Imobiliáriao
               </span>
             </Link>
 

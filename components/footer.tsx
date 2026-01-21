@@ -12,7 +12,7 @@ export function Footer() {
               <h3 className="font-serif text-2xl font-bold mb-6">
                 <span className="text-[#c01616]">FREEDOM</span>
                 <br />
-                Imobiliária
+                Planejamento Imobiliário
               </h3>
               <p className="text-sm text-white/70 leading-relaxed">
                 Chegou a sua hora de ter LIBERDADE. Realize seu sonho com a
@@ -104,7 +104,10 @@ export function Footer() {
           {/* BOTTOM BAR */}
           <div className="border-t border-white/10 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/50">
-              <p>© 2025 FREEDOM Imobiliária. Todos os direitos reservados.</p>
+              <p>
+                © 2025 FREEDOM Planejamento Imobiliário. Todos os direitos
+                reservados.
+              </p>
               <div className="flex gap-6">
                 <Link
                   href="#"

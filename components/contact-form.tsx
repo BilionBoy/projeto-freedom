@@ -95,7 +95,7 @@ export function ContactForm({ onSuccess }: ContactFormProps) {
     const whatsappNumber = "5511960606405";
 
     const text = `
-🏠 Novo contato - Freedom Imobiliária
+🏠 Novo contato - Freedom Planejamento Imobiliário
 
 👤 *Dados Pessoais:*
 Nome: ${name}
