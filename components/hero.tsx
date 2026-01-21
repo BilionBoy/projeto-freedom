@@ -38,7 +38,8 @@ export function Hero() {
             <div className="inline-flex items-center gap-2 bg-[#c01616]/20 backdrop-blur-md px-6 py-3 rounded-full mb-8 border border-[#c01616]/30">
               <MapPin className="h-5 w-5 text-[#c01616]" />
               <span className="text-sm font-medium tracking-wide">
-                Lançamento em Itu/SP • Bairro Nossa Senhora da Candelária
+                Lançamento em Itu/SP • Bairro Nossa Senhora da Candelária Creci
+                034755
               </span>
             </div>
 

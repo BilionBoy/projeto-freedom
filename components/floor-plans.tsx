@@ -6,7 +6,7 @@ import { Download } from "lucide-react";
 export function FloorPlans() {
   const floorPlans = [
     {
-      title: "Planta Tipo A",
+      title: "Planta Tipo 1",
       subtitle: "46,86 m² • 1 Dorm + 1 Suíte • Varanda",
       image: "/bella-roma-planta1.jpeg",
       download: "/bella-roma-planta1.jpeg",
@@ -19,8 +19,8 @@ export function FloorPlans() {
       ],
     },
     {
-      title: "Planta Tipo 1",
-      subtitle: "44,76 m² • 1 Dorm + 1 Suíte",
+      title: "Planta Tipo 2",
+      subtitle: "44,76 m² • 1 Dorm + 1 Suíte + varanda",
       image: "/bella-roma-planta2.jpeg",
       download: "/bella-roma-planta2.jpeg",
       features: [
@@ -38,6 +38,19 @@ export function FloorPlans() {
       download: "/bella-roma-planta3.jpeg",
       features: [
         "40,56 m² / 40,98 m²",
+        "2 dormitórios",
+        "Sala de estar integrada",
+        "Cozinha prática",
+        "Varanda",
+      ],
+    },
+    {
+      title: "Planta Tipo 4",
+      subtitle: "40,73 m² • 2 Dorms • Varanda",
+      image: "/bella-roma-planta4.jpeg",
+      download: "/bella-roma-planta4.jpeg",
+      features: [
+        "40,73 m²",
         "2 dormitórios",
         "Sala de estar integrada",
         "Cozinha prática",
