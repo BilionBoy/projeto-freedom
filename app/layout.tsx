@@ -12,7 +12,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Freedom Planejamento Imobiliário - Bella Verona & Vista Parque",
+  title: "Freedom Planejamento Imobiliário ",
   description:
     "Realize seu sonho da casa própria com a Freedom. Conheça nossos empreendimentos em Itu e Salto/SP.",
 
