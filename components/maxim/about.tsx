@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import { Card } from "@/components/ui/card"
-import { Building2, Calendar, MapPin, Award } from "lucide-react"
-import { motion } from "framer-motion"
+import { Card } from "@/components/ui/card";
+import { Building2, Calendar, MapPin, Award } from "lucide-react";
+import { motion } from "framer-motion";
 
 export function MaximAbout() {
   const highlights = [
@@ -13,8 +13,8 @@ export function MaximAbout() {
     },
     {
       icon: Calendar,
-      title: "Entrega Dezembro/2025",
-      description: "Obras finalizando, quase pronto",
+      title: "Pronta",
+      description: "",
     },
     {
       icon: MapPin,
@@ -26,7 +26,7 @@ export function MaximAbout() {
       title: "80% Vagas Cobertas",
       description: "Conforto e proteção para seu veículo",
     },
-  ]
+  ];
 
   return (
     <section id="about" className="py-24 bg-white">
@@ -38,11 +38,14 @@ export function MaximAbout() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance">
-            O Maior Clube de Lazer de <span className="text-[#c01616]">Itu</span>
+            O Maior Clube de Lazer de{" "}
+            <span className="text-[#c01616]">Itu</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            O Maxim Home Club une conforto e lazer em um único lugar. Com apartamentos de 2 dormitórios, opção de suíte,
-            e uma infraestrutura completa de lazer, este é o empreendimento ideal para quem busca qualidade de vida.
+            O Maxim Home Club une conforto e lazer em um único lugar. Com
+            apartamentos de 2 dormitórios, opção de suíte, e uma infraestrutura
+            completa de lazer, este é o empreendimento ideal para quem busca
+            qualidade de vida.
           </p>
         </motion.div>
 
@@ -60,7 +63,9 @@ export function MaximAbout() {
                   <item.icon className="h-8 w-8 text-[#c01616]" />
                 </div>
                 <h3 className="font-bold text-lg mb-2">{item.title}</h3>
-                <p className="text-sm text-muted-foreground">{item.description}</p>
+                <p className="text-sm text-muted-foreground">
+                  {item.description}
+                </p>
               </Card>
             </motion.div>
           ))}
@@ -72,16 +77,19 @@ export function MaximAbout() {
           viewport={{ once: true }}
           className="bg-gradient-to-br from-[#c01616] to-[#a01212] rounded-2xl p-8 md:p-12 text-white text-center"
         >
-          <h3 className="text-2xl md:text-3xl font-bold mb-4">Apartamento Decorado Disponível</h3>
+          <h3 className="text-2xl md:text-3xl font-bold mb-4">
+            Apartamento Decorado Disponível
+          </h3>
           <p className="text-lg text-white/90 mb-6 max-w-2xl mx-auto">
-            Visite o empreendimento e conheça o apartamento decorado. Todas as áreas de lazer já estão prontas para você
-            conhecer!
+            Visite o empreendimento e conheça o apartamento decorado. Todas as
+            áreas de lazer já estão prontas para você conhecer!
           </p>
           <p className="text-sm text-white/70">
-            Agende sua visita com a FREEDOM e conheça pessoalmente este incrível empreendimento
+            Agende sua visita com a FREEDOM e conheça pessoalmente este incrível
+            empreendimento
           </p>
         </motion.div>
       </div>
     </section>
-  )
+  );
 }

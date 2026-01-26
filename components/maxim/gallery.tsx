@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { X, ChevronLeft, ChevronRight } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Button } from "../../components/ui/button"
 
 export function MaximGallery() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null)

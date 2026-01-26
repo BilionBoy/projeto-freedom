@@ -1,6 +1,6 @@
 "use client";
 
-import { Card } from "@/components/ui/card";
+import { Card } from "../../components/ui/card";
 import { Building2, MapPin, Award, Map } from "lucide-react";
 import { motion } from "framer-motion";
 

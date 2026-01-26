@@ -1,15 +1,16 @@
-"use client"
+"use client";
 
-import { Card } from "@/components/ui/card"
-import { Home, Building, Wind, Leaf, Shield, Zap } from "lucide-react"
-import { motion } from "framer-motion"
+import { Card } from "../../components/ui/card";
+import { Home, Building, Wind, Leaf, Shield, Zap } from "lucide-react";
+import { motion } from "framer-motion";
 
 export function VistaParqueFeatures() {
   const features = [
     {
       icon: Home,
       title: "2 Dormitórios",
-      description: "Com ou sem suíte, você escolhe a planta ideal para sua família",
+      description:
+        "Com ou sem suíte, você escolhe a planta ideal para sua família",
     },
     {
       icon: Building,
@@ -19,7 +20,8 @@ export function VistaParqueFeatures() {
     {
       icon: Wind,
       title: "Ventilação Natural",
-      description: "Projeto arquitetônico que privilegia iluminação e ventilação",
+      description:
+        "Projeto arquitetônico que privilegia iluminação e ventilação",
     },
     {
       icon: Leaf,
@@ -34,9 +36,9 @@ export function VistaParqueFeatures() {
     {
       icon: Zap,
       title: "Infraestrutura Completa",
-      description: "Preparação para ar-condicionado e aquecedor solar",
+      description: "Preparação para ar-condicionado ",
     },
-  ]
+  ];
 
   return (
     <section id="features" className="py-24 bg-muted">
@@ -51,7 +53,8 @@ export function VistaParqueFeatures() {
             Diferenciais do <span className="text-[#c01616]">Vista Parque</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Cada detalhe foi pensado para proporcionar conforto, praticidade e qualidade de vida para você e sua família
+            Cada detalhe foi pensado para proporcionar conforto, praticidade e
+            qualidade de vida para você e sua família
           </p>
         </motion.div>
 
@@ -69,12 +72,14 @@ export function VistaParqueFeatures() {
                   <feature.icon className="h-6 w-6 text-[#c01616]" />
                 </div>
                 <h3 className="font-bold text-lg mb-2">{feature.title}</h3>
-                <p className="text-sm text-muted-foreground leading-relaxed">{feature.description}</p>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  {feature.description}
+                </p>
               </Card>
             </motion.div>
           ))}
         </div>
       </div>
     </section>
-  )
+  );
 }

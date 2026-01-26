@@ -15,8 +15,8 @@ export function Footer() {
                 Planejamento Imobiliário
               </h3>
               <p className="text-sm text-white/70 leading-relaxed">
-                Chegou a sua hora de ter LIBERDADE. Realize seu sonho com a
-                FREEDOM!
+                Anos de experiência no mercado imobiliário com centenas de sonhos
+                realizados.
               </p>
             </div>
 
@@ -25,34 +25,22 @@ export function Footer() {
               <h4 className="font-semibold text-lg mb-4">Navegação</h4>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <Link
-                    href="#about"
-                    className="text-white/70 hover:text-[#c01616] transition-colors"
-                  >
+                  <Link href="#about" className="text-white/70 hover:text-[#c01616] transition-colors">
                     O Empreendimento
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    href="#features"
-                    className="text-white/70 hover:text-[#c01616] transition-colors"
-                  >
+                  <Link href="#features" className="text-white/70 hover:text-[#c01616] transition-colors">
                     Diferenciais
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    href="#floor-plans"
-                    className="text-white/70 hover:text-[#c01616] transition-colors"
-                  >
+                  <Link href="#floor-plans" className="text-white/70 hover:text-[#c01616] transition-colors">
                     Plantas
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    href="#virtual-tours"
-                    className="text-white/70 hover:text-[#c01616] transition-colors"
-                  >
+                  <Link href="#virtual-tours" className="text-white/70 hover:text-[#c01616] transition-colors">
                     Tour Virtual
                   </Link>
                 </li>
@@ -63,8 +51,24 @@ export function Footer() {
             <div>
               <h4 className="font-semibold text-lg mb-4">Contato</h4>
               <ul className="space-y-2 text-sm text-white/70">
-                <li>(11) 96060-6405</li>
-                <li>freedom.planejamento@gmail.com</li>
+                <li>
+                  <a
+                    href="https://wa.me/5511960606405"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-[#c01616] transition-colors"
+                  >
+                    +55 (11) 96060-6405
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="mailto:freedom.planejamento@gmail.com"
+                    className="hover:text-[#c01616] transition-colors"
+                  >
+                    freedom.planejamento@gmail.com
+                  </a>
+                </li>
                 <li>Salto - SP</li>
               </ul>
             </div>
@@ -74,24 +78,41 @@ export function Footer() {
               <h4 className="font-semibold text-lg mb-4">Redes Sociais</h4>
               <div className="flex gap-3">
                 {[
-                  { icon: Facebook, label: "Facebook" },
-                  { icon: Instagram, label: "Instagram" },
-                  { icon: Linkedin, label: "LinkedIn" },
-                  { icon: Youtube, label: "YouTube" },
-                ].map(({ icon: Icon, label }) => (
+                  {
+                    icon: Facebook,
+                    label: "Facebook",
+                    href: "https://www.facebook.com/freedomplanejamento",
+                  },
+                  {
+                    icon: Instagram,
+                    label: "Instagram",
+                    href: "#", // adicionar quando tiver
+                  },
+                  {
+                    icon: Linkedin,
+                    label: "LinkedIn",
+                    href: "https://www.linkedin.com/company/freedom-planejamento-imobili%C3%A1rio",
+                  },
+                  {
+                    icon: Youtube,
+                    label: "YouTube",
+                    href: "https://www.youtube.com/@freedom.imobiliaria",
+                  },
+                ].map(({ icon: Icon, label, href }) => (
                   <a
                     key={label}
-                    href="#"
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     aria-label={label}
                     className="
-                      w-10 h-10 
-                      bg-white/10 
-                      rounded-lg 
+                      w-10 h-10
+                      bg-white/10
+                      rounded-lg
                       flex items-center justify-center
                       hover:bg-[#c01616]
                       hover:text-white
                       transition-colors
-                      cursor-pointer
                     "
                   >
                     <Icon className="h-5 w-5" />
@@ -109,16 +130,10 @@ export function Footer() {
                 reservados.
               </p>
               <div className="flex gap-6">
-                <Link
-                  href="#"
-                  className="hover:text-[#c01616] transition-colors"
-                >
+                <Link href="#" className="hover:text-[#c01616] transition-colors">
                   Política de Privacidade
                 </Link>
-                <Link
-                  href="#"
-                  className="hover:text-[#c01616] transition-colors"
-                >
+                <Link href="#" className="hover:text-[#c01616] transition-colors">
                   Termos de Uso
                 </Link>
               </div>

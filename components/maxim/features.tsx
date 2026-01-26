@@ -1,6 +1,6 @@
 "use client"
 
-import { Card } from "@/components/ui/card"
+import { Card } from "../../components/ui/card"
 import { Home, Bed, Bath, Car, Maximize, Wind } from "lucide-react"
 import { motion } from "framer-motion"
 

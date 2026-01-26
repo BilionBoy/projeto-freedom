@@ -1,7 +1,7 @@
 "use client";
 
-import { Card } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { Card } from "../../components/ui/card";
+import { Button } from "../../components/ui/button";
 import { Maximize, Bed, Download } from "lucide-react";
 import { motion } from "framer-motion";
 

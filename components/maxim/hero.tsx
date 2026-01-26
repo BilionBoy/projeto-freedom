@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
+import { Button } from "../../components/ui/button";
 import { ArrowRight, MapPin, Home, Waves, Calendar } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -35,7 +35,7 @@ export function MaximHero() {
             <div className="inline-flex items-center gap-2 bg-green-600/20 backdrop-blur-md px-6 py-3 rounded-full mb-8 border border-green-600/30">
               <Calendar className="h-5 w-5 text-green-400" />
               <span className="text-sm font-medium tracking-wide">
-                Pronto para Morar - Entrega Dezembro/2025
+                Pronto para Morar
               </span>
             </div>
 

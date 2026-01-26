@@ -1,8 +1,19 @@
-"use client"
+"use client";
 
-import { Card } from "@/components/ui/card"
-import { Waves, Eye, Dumbbell, Baby, Dog, TreePine, PartyPopper, Gamepad2, Lollipop, Armchair } from "lucide-react"
-import { motion } from "framer-motion"
+import { Card } from "../../components/ui/card";
+import {
+  Waves,
+  Eye,
+  Dumbbell,
+  Baby,
+  Dog,
+  TreePine,
+  PartyPopper,
+  Gamepad2,
+  Lollipop,
+  Armchair,
+} from "lucide-react";
+import { motion } from "framer-motion";
 
 export function VistaParqueAmenities() {
   const rooftopAmenities = [
@@ -26,7 +37,7 @@ export function VistaParqueAmenities() {
       title: "Brinquedoteca",
       description: "Espaço lúdico e seguro para as crianças",
     },
-  ]
+  ];
 
   const groundAmenities = [
     {
@@ -49,7 +60,7 @@ export function VistaParqueAmenities() {
       title: "Espaço Pet",
       description: "Área exclusiva para seu pet",
     },
-  ]
+  ];
 
   return (
     <section className="py-24 bg-white">
@@ -64,7 +75,8 @@ export function VistaParqueAmenities() {
             Lazer <span className="text-[#c01616]">Completo</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            O grande destaque é o lazer no rooftop com vista panorâmica, além de área completa no térreo
+            aqui alterar a frase: O grande destaque é o lazer no rooftop com
+            vista panorâmica, além das demais áreas de lazer no térreo{" "}
           </p>
         </motion.div>
 
@@ -76,7 +88,9 @@ export function VistaParqueAmenities() {
             </div>
             <div>
               <h3 className="text-2xl font-bold">Lazer no Rooftop</h3>
-              <p className="text-sm text-muted-foreground">Vista panorâmica privilegiada</p>
+              <p className="text-sm text-muted-foreground">
+                Vista panorâmica privilegiada
+              </p>
             </div>
           </div>
 
@@ -94,7 +108,9 @@ export function VistaParqueAmenities() {
                     <amenity.icon className="h-5 w-5 text-[#c01616]" />
                   </div>
                   <h4 className="font-bold mb-1">{amenity.title}</h4>
-                  <p className="text-sm text-muted-foreground">{amenity.description}</p>
+                  <p className="text-sm text-muted-foreground">
+                    {amenity.description}
+                  </p>
                 </Card>
               </motion.div>
             ))}
@@ -114,7 +130,9 @@ export function VistaParqueAmenities() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
             <div className="absolute bottom-6 left-6 text-white">
               <p className="text-2xl font-bold">Implantação Completa</p>
-              <p className="text-sm text-white/80">Visão geral do empreendimento</p>
+              <p className="text-sm text-white/80">
+                Visão geral do empreendimento
+              </p>
             </div>
           </motion.div>
         </div>
@@ -127,7 +145,9 @@ export function VistaParqueAmenities() {
             </div>
             <div>
               <h3 className="text-2xl font-bold">Lazer no Térreo</h3>
-              <p className="text-sm text-muted-foreground">Diversão para toda a família</p>
+              <p className="text-sm text-muted-foreground">
+                Diversão para toda a família
+              </p>
             </div>
           </div>
 
@@ -145,7 +165,9 @@ export function VistaParqueAmenities() {
                     <amenity.icon className="h-5 w-5 text-[#c01616]" />
                   </div>
                   <h4 className="font-bold mb-1">{amenity.title}</h4>
-                  <p className="text-sm text-muted-foreground">{amenity.description}</p>
+                  <p className="text-sm text-muted-foreground">
+                    {amenity.description}
+                  </p>
                 </Card>
               </motion.div>
             ))}
@@ -189,5 +211,5 @@ export function VistaParqueAmenities() {
         </div>
       </div>
     </section>
-  )
+  );
 }
